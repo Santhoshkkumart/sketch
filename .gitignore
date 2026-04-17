@@ -36,3 +36,5 @@ lerna-debug.log*
 # Project Specific
 TEMPLATES/
 .gemini/
+COMPONENTS.MD
+PLAN.MD
