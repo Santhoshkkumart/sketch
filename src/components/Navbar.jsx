@@ -43,7 +43,7 @@ export default function Navbar() {
       {/* Fixed SKETCH logo */}
       <Link
         to="/"
-        className="fixed top-6 left-8 z-[5001] text-white text-xl font-bold tracking-[0.3em] hover:opacity-80 transition-opacity"
+        className="fixed top-4 left-4 sm:top-6 sm:left-8 z-[5001] text-white text-base sm:text-xl font-bold tracking-[0.22em] sm:tracking-[0.3em] hover:opacity-80 transition-opacity"
       >
         SKETCH
       </Link>

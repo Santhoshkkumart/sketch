@@ -49,22 +49,22 @@ export default function Join() {
 
   return (
     <PageTransition>
-      <div className="relative min-h-screen bg-neutral-950 flex items-center justify-center overflow-hidden py-32">
+      <div className="relative min-h-screen bg-neutral-950 flex items-center justify-center overflow-hidden py-24 md:py-32">
         <BackgroundBeams />
 
-        <div className="relative z-10 w-full max-w-xl mx-auto px-6">
+        <div className="relative z-10 w-full max-w-xl mx-auto px-4 sm:px-6">
           {/* Heading */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="mb-12 text-center"
+            className="mb-10 md:mb-12 text-center"
           >
-            <h1 className="text-4xl md:text-6xl font-bold">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold">
               <EncryptedText
                 text="Be Part of SKETCH"
                 encryptedClassName="text-neutral-500"
-                revealedClassName="text-white text-4xl md:text-6xl font-bold font-sans"
+                revealedClassName="text-white text-3xl sm:text-4xl md:text-6xl font-bold font-sans"
                 revealDelayMs={50}
                 animateOn="load"
               />
@@ -79,7 +79,7 @@ export default function Join() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.5 }}
-                className="glass rounded-2xl p-8 md:p-12"
+                className="glass rounded-2xl p-6 sm:p-8 md:p-12"
               >
                 <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
                   {/* Full Name */}
@@ -190,7 +190,7 @@ export default function Join() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
-                className="glass rounded-2xl p-12 md:p-16 text-center"
+                className="glass rounded-2xl p-8 sm:p-12 md:p-16 text-center"
               >
                 <motion.div
                   initial={{ scale: 0 }}

@@ -49,20 +49,20 @@ const cardVariants = {
 export default function Departments() {
   return (
     <PageTransition>
-      <div className="min-h-screen bg-[#0e0e0e] pt-32 pb-20">
+      <div className="min-h-screen bg-[#0e0e0e] pt-24 md:pt-32 pb-16 md:pb-20">
         {/* SECTION 1 — Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto px-6 mb-20"
+          className="max-w-4xl mx-auto px-4 sm:px-6 mb-14 md:mb-20"
         >
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold">
             <EncryptedText
               text="Our Departments"
               encryptedClassName="text-neutral-500"
-              revealedClassName="text-white text-4xl md:text-6xl font-bold font-sans"
+              revealedClassName="text-white text-3xl sm:text-4xl md:text-6xl font-bold font-sans"
               revealDelayMs={50}
             />
           </h1>
@@ -74,22 +74,22 @@ export default function Departments() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8"
+          className="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8"
         >
           {departments.map((dept) => (
             <motion.div
               key={dept.name}
               variants={cardVariants}
-              className="border border-white/[0.2] flex flex-col items-start p-4 relative h-[30rem] rounded-xl group hover:border-white/[0.35] transition-colors duration-300"
+              className="border border-white/[0.2] flex flex-col items-start p-3 sm:p-4 relative min-h-[24rem] sm:min-h-[28rem] md:h-[30rem] rounded-xl group hover:border-white/[0.35] transition-colors duration-300"
             >
-              <Icon className="absolute h-6 w-6 -top-3 -left-3 text-white" />
-              <Icon className="absolute h-6 w-6 -bottom-3 -left-3 text-white" />
-              <Icon className="absolute h-6 w-6 -top-3 -right-3 text-white" />
-              <Icon className="absolute h-6 w-6 -bottom-3 -right-3 text-white" />
+              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -left-3 text-white" />
+              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -left-3 text-white" />
+              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -right-3 text-white" />
+              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -right-3 text-white" />
 
               <EvervaultCard text={dept.name} />
 
-              <h2 className="text-white mt-4 text-sm font-light">
+              <h2 className="text-white mt-4 text-sm sm:text-base font-light">
                 {dept.description}
               </h2>
 

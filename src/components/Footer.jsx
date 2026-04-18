@@ -4,22 +4,20 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="relative border-t border-white/[0.08] bg-[#0a0a0a]">
-      <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          {/* Brand */}
-          <div className="md:col-span-2">
-            <h2 className="text-white text-2xl font-bold tracking-[0.3em] mb-4">
+      <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16">
+        <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-4 md:gap-12 md:text-left">
+          <div className="flex flex-col items-center md:col-span-2 md:items-start">
+            <h2 className="mb-4 text-lg font-bold tracking-[0.22em] text-white sm:text-xl md:text-2xl sm:tracking-[0.3em]">
               SKETCH
             </h2>
-            <p className="text-neutral-500 text-sm leading-relaxed max-w-sm">
+            <p className="max-w-sm text-sm leading-relaxed text-neutral-500">
               A college club that runs like a platform. Where ideas meet
               execution, and students become builders.
             </p>
           </div>
 
-          {/* Navigation */}
-          <div>
-            <h3 className="text-white/60 text-xs font-semibold uppercase tracking-widest mb-4">
+          <div className="flex flex-col items-center md:items-start">
+            <h3 className="mb-4 text-xs font-semibold uppercase tracking-widest text-white/60">
               Pages
             </h3>
             <ul className="space-y-3">
@@ -33,7 +31,7 @@ export default function Footer() {
                 <li key={link.path}>
                   <Link
                     to={link.path}
-                    className="text-neutral-500 hover:text-white text-sm transition-colors duration-200"
+                    className="text-sm text-neutral-500 transition-colors duration-200 hover:text-white"
                   >
                     {link.name}
                   </Link>
@@ -42,27 +40,25 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Departments */}
-          <div>
-            <h3 className="text-white/60 text-xs font-semibold uppercase tracking-widest mb-4">
+          <div className="flex flex-col items-center md:items-start">
+            <h3 className="mb-4 text-xs font-semibold uppercase tracking-widest text-white/60">
               Departments
             </h3>
             <ul className="space-y-3">
               {["R&D", "Design", "O & PR", "Marketing"].map((dept) => (
                 <li key={dept}>
-                  <span className="text-neutral-500 text-sm">{dept}</span>
+                  <span className="text-sm text-neutral-500">{dept}</span>
                 </li>
               ))}
             </ul>
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="mt-16 pt-8 border-t border-white/[0.06] flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-neutral-600 text-xs">
-            © {new Date().getFullYear()} SKETCH. All rights reserved.
+        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/[0.06] pt-6 text-center md:mt-16 md:flex-row md:items-center md:text-left sm:pt-8">
+          <p className="text-xs text-neutral-600">
+            &copy; {new Date().getFullYear()} SKETCH. All rights reserved.
           </p>
-          <p className="text-neutral-700 text-xs">
+          <p className="text-xs text-neutral-700">
             Built with passion. Shipped with purpose.
           </p>
         </div>

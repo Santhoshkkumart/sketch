@@ -65,20 +65,20 @@ export default function Projects() {
 
   return (
     <PageTransition>
-      <div className="min-h-screen bg-[#0e0e0e] pt-32 pb-20">
+      <div className="min-h-screen bg-[#0e0e0e] pt-24 md:pt-32 pb-16 md:pb-20">
         {/* SECTION 1 — Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto px-6 mb-12"
+          className="max-w-4xl mx-auto px-4 sm:px-6 mb-10 md:mb-12"
         >
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold">
             <EncryptedText
               text="What We Build"
               encryptedClassName="text-neutral-500"
-              revealedClassName="text-white text-4xl md:text-6xl font-bold font-sans"
+              revealedClassName="text-white text-3xl sm:text-4xl md:text-6xl font-bold font-sans"
               revealDelayMs={50}
             />
           </h1>
@@ -90,13 +90,13 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
-          className="max-w-4xl mx-auto px-6 mb-16 flex flex-wrap gap-3"
+          className="max-w-4xl mx-auto mb-12 flex gap-3 overflow-x-auto px-4 pb-2 sm:px-6 md:mb-16 md:flex-wrap md:pb-0"
         >
           {filters.map((filter) => (
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}
-              className={`rounded-full border px-5 py-2 text-sm transition-all duration-300 ${
+              className={`whitespace-nowrap rounded-full border px-4 py-2 text-sm transition-all duration-300 sm:px-5 ${
                 activeFilter === filter
                   ? "border-white text-white"
                   : "border-white/20 text-neutral-500 hover:border-white/40 hover:text-neutral-300"
@@ -108,10 +108,10 @@ export default function Projects() {
         </motion.div>
 
         {/* SECTION 3 — Project Cards */}
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <motion.div
             layout
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 md:gap-6"
           >
             <AnimatePresence mode="popLayout">
               {filteredProjects.map((project) => (
@@ -124,7 +124,7 @@ export default function Projects() {
                   transition={{ duration: 0.3 }}
                 >
                   <CardContainer containerClassName="py-2">
-                    <CardBody className="bg-[#111111] relative group/card border border-white/[0.1] w-full h-auto rounded-xl p-6 hover:border-white/[0.2] transition-colors">
+                    <CardBody className="bg-[#111111] relative group/card border border-white/[0.1] w-full h-auto rounded-xl p-5 sm:p-6 hover:border-white/[0.2] transition-colors">
                       <CardItem
                         translateZ="50"
                         className="text-lg font-bold text-white"
@@ -145,7 +145,7 @@ export default function Projects() {
                         <img
                           src={project.image}
                           alt={project.title}
-                          className="h-48 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                          className="h-44 w-full object-cover rounded-xl sm:h-48 group-hover/card:shadow-xl"
                           loading="lazy"
                         />
                       </CardItem>

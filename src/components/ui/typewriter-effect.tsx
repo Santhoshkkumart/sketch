@@ -37,9 +37,9 @@ export const TypewriterEffectSmooth = ({ words, className, cursorClassName }) =>
         viewport={{ once: true }}
       >
         <div
-          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold"
-          style={{ whiteSpace: "nowrap" }}
-        >
+        className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight"
+        style={{ whiteSpace: "normal" }}
+      >
           {renderWords()}
         </div>
       </motion.div>

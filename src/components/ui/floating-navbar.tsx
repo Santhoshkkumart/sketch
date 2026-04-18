@@ -39,7 +39,7 @@ export const FloatingNav = ({ navItems, className }) => {
         animate={{ y: visible ? 0 : -100, opacity: visible ? 1 : 0 }}
         transition={{ duration: 0.2 }}
         className={cn(
-          "flex max-w-fit fixed top-6 inset-x-0 mx-auto border border-white/[0.15] rounded-full bg-black/80 backdrop-blur-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-8 py-3 items-center justify-center space-x-4",
+          "fixed z-[5000] flex w-[calc(100%-1.5rem)] max-w-none items-center justify-center gap-3 rounded-2xl border border-white/[0.15] bg-black/85 px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] backdrop-blur-md left-3 right-3 bottom-3 md:bottom-auto md:top-6 md:left-1/2 md:right-auto md:w-auto md:max-w-fit md:-translate-x-1/2 md:rounded-full md:px-8",
           className
         )}
       >
@@ -48,12 +48,14 @@ export const FloatingNav = ({ navItems, className }) => {
             key={`link-${idx}`}
             to={navItem.link}
             className={cn(
-              "relative items-center flex space-x-1 text-neutral-400 hover:text-white transition-colors duration-200",
+              "relative flex items-center gap-2 text-neutral-400 transition-colors duration-200 min-w-0 touch-manipulation",
               location.pathname === navItem.link && "text-white"
             )}
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="hidden sm:block text-sm">{navItem.name}</span>
+            <span className="block md:hidden">{navItem.icon}</span>
+            <span className="hidden md:block text-sm hover:text-white">
+              {navItem.name}
+            </span>
           </Link>
         ))}
       </motion.div>
