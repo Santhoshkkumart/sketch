@@ -10,9 +10,18 @@ import { cn } from "@/lib/utils";
 
 const MouseEnterContext = createContext(undefined);
 
-export const CardContainer = ({ children, className, containerClassName }) => {
+export const CardContainer = ({
+  children,
+  className,
+  containerClassName,
+  isHovered: forcedHover = false,
+}) => {
   const containerRef = useRef(null);
   const [isMouseEntered, setIsMouseEntered] = useState(false);
+
+  useEffect(() => {
+    setIsMouseEntered(forcedHover);
+  }, [forcedHover]);
 
   const handleMouseMove = (e) => {
     if (!containerRef.current) return;

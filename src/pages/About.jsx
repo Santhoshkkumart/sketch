@@ -102,7 +102,7 @@ export default function About() {
 
   return (
     <PageTransition>
-      <div className="min-h-screen bg-[#0e0e0e] pt-24 md:pt-32 pb-16 md:pb-20">
+      <div className="min-h-screen pt-24 md:pt-32 pb-16 md:pb-20">
         <motion.div {...fadeInUp} className="max-w-4xl mx-auto px-4 sm:px-6 mb-12 md:mb-16">
           <h1 className="mb-6 text-3xl font-bold sm:text-4xl md:text-6xl">
             <EncryptedText

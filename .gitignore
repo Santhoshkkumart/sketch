@@ -19,9 +19,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Misc
 .DS_Store
+Thumbs.db
 *.local
+repomix-output.xml
 
 # Editor
 .vscode/*
@@ -32,6 +41,7 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+.cursor/
 
 # Project Specific
 TEMPLATES/

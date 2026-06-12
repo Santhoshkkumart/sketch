@@ -3,7 +3,7 @@ import { useMotionValue, useMotionTemplate, motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
-export function EvervaultCard({ text, className }) {
+export function EvervaultCard({ text, className, forceHover }) {
   let mouseX = useMotionValue(0);
   let mouseY = useMotionValue(0);
 
@@ -34,7 +34,7 @@ export function EvervaultCard({ text, className }) {
         onMouseMove={onMouseMove}
         className="group/card rounded-3xl w-full relative overflow-hidden bg-transparent flex items-center justify-center h-full"
       >
-        <CardPattern mouseX={mouseX} mouseY={mouseY} randomString={randomString} />
+        <CardPattern mouseX={mouseX} mouseY={mouseY} randomString={randomString} forceHover={forceHover} />
         <div className="relative z-10 flex items-center justify-center">
           <div className="relative h-32 w-32 md:h-44 md:w-44 rounded-full flex items-center justify-center text-white font-bold text-2xl md:text-4xl">
             <div className="absolute w-full h-full bg-white/[0.8] dark:bg-black/[0.8] blur-sm rounded-full" />
@@ -46,19 +46,28 @@ export function EvervaultCard({ text, className }) {
   );
 }
 
-function CardPattern({ mouseX, mouseY, randomString }) {
+function CardPattern({ mouseX, mouseY, randomString, forceHover }) {
   let maskImage = useMotionTemplate`radial-gradient(250px at ${mouseX}px ${mouseY}px, white, transparent)`;
   let style = { maskImage, WebkitMaskImage: maskImage };
 
   return (
     <div className="pointer-events-none">
-      <div className="absolute inset-0 rounded-2xl [mask-image:linear-gradient(white,transparent)] group-hover/card:opacity-50"></div>
+      <div className={cn(
+        "absolute inset-0 rounded-2xl [mask-image:linear-gradient(white,transparent)] group-hover/card:opacity-50",
+        forceHover && "opacity-50"
+      )}></div>
       <motion.div
-        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-green-500 to-blue-700 opacity-0 group-hover/card:opacity-100 backdrop-blur-xl transition duration-500"
+        className={cn(
+          "absolute inset-0 rounded-2xl bg-gradient-to-r from-green-500 to-blue-700 opacity-0 group-hover/card:opacity-100 backdrop-blur-xl transition duration-500",
+          forceHover && "opacity-100"
+        )}
         style={style}
       />
       <motion.div
-        className="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay group-hover/card:opacity-100"
+        className={cn(
+          "absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay group-hover/card:opacity-100",
+          forceHover && "opacity-100"
+        )}
         style={style}
       >
         <p className="absolute inset-x-0 text-xs h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">

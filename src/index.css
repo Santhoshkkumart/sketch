@@ -24,6 +24,18 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-spotlight {
+    animation: none;
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
+
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background-color: var(--bg-primary);
@@ -31,6 +43,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #0e0e0e;
 }
 
 /* Scrollbar styling */

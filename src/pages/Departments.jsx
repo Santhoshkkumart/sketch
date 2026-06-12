@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import PageTransition from "../components/PageTransition";
 import { EncryptedText } from "../components/ui/encrypted-text";
 import { EvervaultCard, Icon } from "../components/ui/evervault-card";
+import { useScrollHover } from "../hooks/use-scroll-hover";
+import { cn } from "../lib/utils";
 
 const departments = [
   {
@@ -46,10 +48,48 @@ const cardVariants = {
   },
 };
 
+function DepartmentCard({ dept }) {
+  const cardRef = useRef(null);
+  const isAutoHovered = useScrollHover(cardRef);
+
+  return (
+    <motion.div
+      ref={cardRef}
+      variants={cardVariants}
+      className={cn(
+        "border border-white/[0.2] flex flex-col items-start p-3 sm:p-4 relative min-h-[24rem] sm:min-h-[28rem] md:h-[30rem] rounded-xl group transition-colors duration-300",
+        isAutoHovered ? "border-white/[0.35]" : "hover:border-white/[0.35]"
+      )}
+    >
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -left-3 text-white" />
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -left-3 text-white" />
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -right-3 text-white" />
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -right-3 text-white" />
+
+      <EvervaultCard text={dept.name} forceHover={isAutoHovered} />
+
+      <h2 className="text-white mt-4 text-sm sm:text-base font-light">
+        {dept.description}
+      </h2>
+
+      <div className="flex flex-wrap gap-2 mt-4">
+        {dept.skills.map((skill) => (
+          <span
+            key={skill}
+            className="text-xs border border-white/20 text-neutral-400 rounded-full px-3 py-1"
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
+    </motion.div>
+  );
+}
+
 export default function Departments() {
   return (
     <PageTransition>
-      <div className="min-h-screen bg-[#0e0e0e] pt-24 md:pt-32 pb-16 md:pb-20">
+      <div className="min-h-screen pt-24 md:pt-32 pb-16 md:pb-20">
         {/* SECTION 1 — Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -77,33 +117,7 @@ export default function Departments() {
           className="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8"
         >
           {departments.map((dept) => (
-            <motion.div
-              key={dept.name}
-              variants={cardVariants}
-              className="border border-white/[0.2] flex flex-col items-start p-3 sm:p-4 relative min-h-[24rem] sm:min-h-[28rem] md:h-[30rem] rounded-xl group hover:border-white/[0.35] transition-colors duration-300"
-            >
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -left-3 text-white" />
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -left-3 text-white" />
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -right-3 text-white" />
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -right-3 text-white" />
-
-              <EvervaultCard text={dept.name} />
-
-              <h2 className="text-white mt-4 text-sm sm:text-base font-light">
-                {dept.description}
-              </h2>
-
-              <div className="flex flex-wrap gap-2 mt-4">
-                {dept.skills.map((skill) => (
-                  <span
-                    key={skill}
-                    className="text-xs border border-white/20 text-neutral-400 rounded-full px-3 py-1"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </motion.div>
+            <DepartmentCard key={dept.name} dept={dept} />
           ))}
         </motion.div>
       </div>

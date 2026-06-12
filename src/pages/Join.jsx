@@ -49,7 +49,7 @@ export default function Join() {
 
   return (
     <PageTransition>
-      <div className="relative min-h-screen bg-neutral-950 flex items-center justify-center overflow-hidden py-24 md:py-32">
+      <div className="relative min-h-screen bg-[#0e0e0e] flex items-center justify-center overflow-hidden py-24 md:py-32">
         <BackgroundBeams />
 
         <div className="relative z-10 w-full max-w-xl mx-auto px-4 sm:px-6">

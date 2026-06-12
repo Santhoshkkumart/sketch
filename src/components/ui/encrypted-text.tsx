@@ -13,16 +13,27 @@ export function EncryptedText({
   revealDelayMs = 50,
   animateOn = "view",
 }) {
-  const [displayText, setDisplayText] = useState("");
+  const [displayText, setDisplayText] = useState(text);
   const [isRevealed, setIsRevealed] = useState(false);
   const [hasStarted, setHasStarted] = useState(false);
   const ref = useRef(null);
 
   useEffect(() => {
-    if (!hasStarted) return;
+    setDisplayText(text);
+    setIsRevealed(false);
+    setHasStarted(animateOn !== "view");
+  }, [text, animateOn]);
+
+  useEffect(() => {
+    if (!hasStarted || isRevealed) return;
 
     let step = 0;
     const totalSteps = text.length;
+    if (totalSteps === 0) {
+      setIsRevealed(true);
+      return;
+    }
+
     const intervalId = setInterval(() => {
       step++;
       let result = "";
@@ -37,18 +48,24 @@ export function EncryptedText({
 
       if (step >= totalSteps) {
         clearInterval(intervalId);
+        setDisplayText(text);
         setIsRevealed(true);
       }
     }, revealDelayMs);
 
-    return () => clearInterval(intervalId);
-  }, [hasStarted, text, revealDelayMs]);
+    return () => {
+      clearInterval(intervalId);
+      setDisplayText(text);
+    };
+  }, [hasStarted, isRevealed, text, revealDelayMs]);
 
   useEffect(() => {
+    if (hasStarted || isRevealed) return;
+
     if (animateOn === "view") {
       const observer = new IntersectionObserver(
         ([entry]) => {
-          if (entry.isIntersecting && !hasStarted) {
+          if (entry.isIntersecting) {
             setHasStarted(true);
             // Initialize with encrypted text
             let initial = "";
@@ -71,7 +88,7 @@ export function EncryptedText({
       }
       setDisplayText(initial);
     }
-  }, [animateOn, text]);
+  }, [animateOn, hasStarted, isRevealed, text]);
 
   return (
     <motion.span

@@ -50,22 +50,27 @@ function App() {
   }
 
   return (
-    <div className="dark min-h-screen bg-[#0e0e0e]">
-      <ScrollToTop />
-      <Navbar />
+    <>
+      {/* Background layer — MUST be outside the main content wrapper */}
+      <div className="fixed inset-0 -z-10 bg-[#0e0e0e]" />
 
-      <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/departments" element={<Departments />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/join" element={<Join />} />
-        </Routes>
-      </AnimatePresence>
+      <div className="dark min-h-screen relative">
+        <ScrollToTop />
+        <Navbar />
 
-      <Footer />
-    </div>
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/departments" element={<Departments />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/join" element={<Join />} />
+          </Routes>
+        </AnimatePresence>
+
+        <Footer />
+      </div>
+    </>
   );
 }
 
