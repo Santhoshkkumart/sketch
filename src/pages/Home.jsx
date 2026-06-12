@@ -117,7 +117,7 @@ export default function Home() {
 
       {/* DESKTOP HERO SECTION (LARGE SCREENS) */}
       {!isMobile && (
-        <div ref={containerRef} className="relative h-[400vh] w-full bg-[#0e0e0e] z-10">
+        <div ref={containerRef} className="relative h-[400vh] w-full z-10">
           <div className="sticky top-0 h-screen w-full overflow-hidden">
             {useSequence && (
               <canvas ref={canvasRef} className="absolute inset-0 h-full w-full object-cover" />
@@ -150,7 +150,7 @@ export default function Home() {
       {/* MOBILE HERO SECTION (SMALL SCREENS) */}
       {isMobile && (
         <>
-          <div className="relative h-screen w-full overflow-hidden bg-[#0e0e0e] flex items-center justify-center">
+          <div className="relative h-screen w-full overflow-hidden flex items-center justify-center">
             <img 
               src="/hero_background.png" 
               alt="" 
@@ -162,7 +162,7 @@ export default function Home() {
             <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0e0e0e] to-transparent z-20" />
           </div>
 
-          <div className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-6 bg-[#0e0e0e] py-32 border-t border-white/5">
+          <div className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-6 py-32 border-t border-white/5">
             <div className="max-w-4xl mx-auto space-y-10">
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight leading-tight">
                 <Typewriter text="This is not a club. This is a platform." speed={70} />
@@ -184,7 +184,7 @@ export default function Home() {
       )}
 
       {/* COMMON MESSAGE SECTION (SECTION 3) */}
-      <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-[#0e0e0e] px-4 py-16 md:py-0 border-t border-white/5 z-20">
+      <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden px-4 py-16 md:py-0 border-t border-white/5 z-20">
         <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="white" />
         <TextFlippingBoard key={MESSAGES[msgIdx]} text={MESSAGES[msgIdx]} />
       </div>
