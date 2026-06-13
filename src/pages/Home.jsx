@@ -2,7 +2,6 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
 import PageTransition from "../components/PageTransition";
-import HomeBackground from "../components/HomeBackground";
 import SketchLine from "../components/SketchLine";
 import { Spotlight } from "../components/ui/spotlight";
 import { Typewriter } from "../components/ui/typewriter-text";
@@ -18,7 +17,7 @@ const MESSAGES = [
   "WHERE IDEAS MEET EXECUTION",
 ];
 
-const FRAME_COUNT = 172;
+const FRAME_COUNT = 240;
 const getFrameUrl = (index) =>
   `/hero-sequence/ezgif-frame-${index.toString().padStart(3, "0")}.jpg`;
 
@@ -31,22 +30,6 @@ export default function Home() {
   const prefersReducedMotion = usePrefersReducedMotion();
   const useSequence = !isMobile && !prefersReducedMotion;
 
-  // 1. Preload Images (Desktop Only)
-  useEffect(() => {
-    if (!useSequence) return;
-    const loadedImages = [];
-    let loadedCount = 0;
-    for (let i = 1; i <= FRAME_COUNT; i += 1) {
-      const img = new Image();
-      img.src = getFrameUrl(i);
-      img.onload = () => {
-        loadedCount += 1;
-        if (loadedCount === FRAME_COUNT) setImages(loadedImages);
-      };
-      loadedImages.push(img);
-    }
-  }, [useSequence]);
-
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end end"],
@@ -57,6 +40,7 @@ export default function Home() {
     damping: 40,
     restDelta: 0.0001,
   });
+  const sequenceProgress = useTransform(smoothProgress, [0, 0.78], [0, 1]);
 
   // Mapped to start fading in earlier on desktop
   const ctaOpacity = useTransform(scrollYProgress, [0.3, 0.5, 0.85, 0.95], [0, 1, 1, 0]);
@@ -67,7 +51,14 @@ export default function Home() {
     (index) => {
       if (!useSequence || images.length === 0 || !canvasRef.current) return;
       const ctx = canvasRef.current.getContext("2d");
-      const img = images[Math.floor(index)];
+      const frameIndex = Math.floor(index);
+      let img = images[frameIndex];
+      if (!img?.complete || img.naturalWidth === 0) {
+        img = images
+          .slice(0, frameIndex + 1)
+          .reverse()
+          .find((frame) => frame.complete && frame.naturalWidth > 0);
+      }
       if (img) {
         const canvas = canvasRef.current;
         const hRatio = canvas.width / img.width;
@@ -82,27 +73,51 @@ export default function Home() {
     [images, useSequence]
   );
 
+  // 1. Preload Images (Desktop Only)
+  useEffect(() => {
+    if (!useSequence) return undefined;
+    let loadedCount = 0;
+    let hasShownFirstFrame = false;
+    const loadedImages = [];
+
+    for (let i = 1; i <= FRAME_COUNT; i += 1) {
+      const img = new Image();
+      img.src = getFrameUrl(i);
+      img.onload = () => {
+        loadedCount += 1;
+        if (!hasShownFirstFrame || loadedCount === FRAME_COUNT) {
+          hasShownFirstFrame = true;
+          setImages([...loadedImages]);
+        }
+      };
+      loadedImages.push(img);
+    }
+
+    setImages(loadedImages);
+    return () => setImages([]);
+  }, [useSequence]);
+
   useEffect(() => {
     if (!useSequence) return undefined;
     const handleResize = () => {
       if (canvasRef.current) {
         canvasRef.current.width = window.innerWidth;
         canvasRef.current.height = window.innerHeight;
-        render(Math.floor(smoothProgress.get() * (FRAME_COUNT - 1)));
+        render(Math.floor(sequenceProgress.get() * (FRAME_COUNT - 1)));
       }
     };
     window.addEventListener("resize", handleResize);
     handleResize();
     return () => window.removeEventListener("resize", handleResize);
-  }, [render, smoothProgress, useSequence]);
+  }, [render, sequenceProgress, useSequence]);
 
   useEffect(() => {
     if (!useSequence) return undefined;
-    const unsubscribe = smoothProgress.on("change", (v) => {
+    const unsubscribe = sequenceProgress.on("change", (v) => {
       render(Math.min(FRAME_COUNT - 1, Math.max(0, Math.floor(v * (FRAME_COUNT - 1)))));
     });
     return () => unsubscribe();
-  }, [smoothProgress, render, useSequence]);
+  }, [sequenceProgress, render, useSequence]);
 
   const next = useCallback(() => setMsgIdx((i) => (i + 1) % MESSAGES.length), []);
   useEffect(() => {
@@ -113,8 +128,6 @@ export default function Home() {
 
   return (
     <PageTransition>
-      <HomeBackground />
-
       {/* DESKTOP HERO SECTION (LARGE SCREENS) */}
       {!isMobile && (
         <div ref={containerRef} className="relative h-[400vh] w-full z-10">
@@ -151,6 +164,7 @@ export default function Home() {
       {isMobile && (
         <>
           <div className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+            <div className="absolute inset-0 bg-gradient-to-b from-purple-900/35 via-[#0e0e0e] to-[#0e0e0e]" />
             <img 
               src="/hero_background.png" 
               alt="" 

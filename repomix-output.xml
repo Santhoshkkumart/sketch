@@ -42,7 +42,6 @@ The content is organized as follows:
 <directory_structure>
 .gitignore
 eslint.config.js
-HOOK.md
 index.html
 package.json
 postcss.config.js
@@ -291,6 +290,7 @@ public/hero-sequence/ezgif-frame-240.jpg
 public/hero.mp4
 public/icons.svg
 public/Sketch.svg
+public/Vector 3.svg
 README.md
 src/App.jsx
 src/assets/hero-frames/ezgif-frame-001.jpg
@@ -563,6 +563,7 @@ src/components/ui/typewriter-effect.tsx
 src/components/ui/typewriter-text.tsx
 src/hooks/use-media-query.js
 src/hooks/use-reduced-motion.js
+src/hooks/use-scroll-hover.js
 src/index.css
 src/lib/utils.ts
 src/main.jsx
@@ -578,6 +579,124 @@ vite.config.js
 <files>
 This section contains the contents of the repository's files.
 
+<file path="public/Vector 3.svg">
+<svg width="882" height="1538" viewBox="0 0 882 1538" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dfg_3_3)">
+<path d="M777.388 16.0198C777.122 13.5487 774.904 11.7607 772.433 12.0261C769.962 12.2915 768.174 14.5099 768.439 16.981L772.913 16.5004L777.388 16.0198ZM295.008 241.5L295.499 245.974L295.008 241.5ZM134.588 283.389L132.909 279.214L134.588 283.389ZM12.5928 397L8.23643 395.872V395.872L12.5928 397ZM40.5084 477L38.0818 480.79V480.79L40.5084 477ZM207.008 477L207.706 481.446L207.008 477ZM816.009 432.14L812.794 435.289L816.009 432.14ZM608.117 1452.98L605.019 1456.24V1456.24L608.117 1452.98ZM592.509 1499.5L591.119 1495.22L592.509 1499.5ZM415.085 1493.99L417.095 1489.96L417.001 1489.92L416.905 1489.87L415.085 1493.99ZM170.008 1439L169.008 1434.61L170.008 1439ZM864.695 563.5L860.197 563.369L864.695 563.5ZM665.195 816L665.668 820.475L665.195 816ZM457.195 803L457.602 798.519V798.519L457.195 803ZM335.695 1039.5L335.204 1043.97L335.695 1039.5ZM435.695 1049L437.661 1044.95L435.695 1049ZM772.913 16.5004L768.439 16.981C775.405 81.8322 779.103 115.966 775.703 139.877C772.41 163.032 762.451 176.527 740.246 199.901L743.509 203L746.771 206.1C769.231 182.458 780.905 167.224 784.613 141.144C788.215 115.819 784.283 80.2109 777.388 16.0198L772.913 16.5004ZM743.509 203L740.246 199.901C718.905 222.365 683.692 235.161 647.921 242.258C612.32 249.32 577.002 250.582 556.266 250.582V255.082V259.582C577.287 259.582 613.258 258.31 649.673 251.086C685.918 243.895 723.448 230.651 746.771 206.1L743.509 203ZM556.266 255.082V250.582C546.108 250.582 530.463 249.143 511.028 247.089C491.702 245.046 468.762 242.41 444.341 240.089C395.533 235.451 340.261 232.01 294.518 237.027L295.008 241.5L295.499 245.974C340.256 241.065 394.734 244.415 443.49 249.049C467.851 251.364 490.647 253.984 510.082 256.039C529.406 258.082 545.545 259.582 556.266 259.582V255.082ZM295.008 241.5L294.518 237.027C228.098 244.311 182.936 259.098 132.909 279.214L134.588 283.389L136.266 287.565C185.813 267.641 230.15 253.14 295.499 245.974L295.008 241.5ZM134.588 283.389L132.909 279.214C113.368 287.072 84.4976 307.783 59.6304 330.341C47.1367 341.675 35.501 353.612 26.422 364.832C17.4466 375.925 10.5939 386.768 8.23643 395.872L12.5928 397L16.9491 398.128C18.7994 390.983 24.6026 381.389 33.4185 370.493C42.1307 359.726 53.4216 348.125 65.6773 337.007C90.3088 314.662 118.228 294.818 136.266 287.565L134.588 283.389ZM12.5928 397L8.23643 395.872C3.83052 412.887 2.9819 428.884 7.52811 443.368C12.1044 457.947 21.9875 470.485 38.0818 480.79L40.5084 477L42.9349 473.211C28.3113 463.847 19.9569 452.912 16.115 440.673C12.2431 428.337 12.7956 414.168 16.9491 398.128L12.5928 397ZM40.5084 477L38.0818 480.79C62.1231 496.184 97.6925 497.155 129.99 494.109C162.342 491.057 193.375 483.694 207.706 481.446L207.008 477L206.311 472.555C190.84 474.982 161.269 482.118 129.144 485.148C96.9647 488.183 64.1852 486.817 42.9349 473.211L40.5084 477ZM207.008 477L207.706 481.446C233.55 477.392 248.613 472.594 267.267 466.809C285.809 461.06 308.109 454.266 348.724 446.054L347.832 441.643L346.94 437.232C305.927 445.525 283.315 452.41 264.602 458.213C246.001 463.981 231.467 468.609 206.311 472.555L207.008 477ZM347.832 441.643L348.724 446.054C389.684 437.771 435.881 423.667 481.733 411.801C527.828 399.871 573.818 390.124 615.305 390.124V385.624V381.124C572.597 381.124 525.664 391.134 479.478 403.088C433.05 415.104 387.608 429.009 346.94 437.232L347.832 441.643ZM615.305 385.624V390.124C657.194 390.124 698.957 393.487 734.173 400.906C769.593 408.369 797.598 419.779 812.794 435.289L816.009 432.14L819.223 428.99C802.076 411.49 771.826 399.642 736.029 392.1C700.028 384.515 657.61 381.124 615.305 381.124V385.624ZM540.351 1351.44L535.876 1351.92C540.319 1393.93 552.575 1415.67 566.898 1429.29C573.96 1436.01 581.361 1440.58 587.996 1444.56C594.769 1448.62 600.455 1451.91 605.019 1456.24L608.117 1452.98L611.216 1449.71C605.768 1444.54 599.069 1440.7 592.623 1436.84C586.038 1432.89 579.385 1428.74 573.099 1422.77C560.727 1411 549.11 1391.48 544.826 1350.97L540.351 1351.44ZM608.117 1452.98L605.019 1456.24C611.848 1462.72 613.5 1470.58 611.228 1477.56C608.916 1484.67 602.282 1491.6 591.119 1495.22L592.509 1499.5L593.899 1503.78C607.235 1499.45 616.414 1490.71 619.786 1480.35C623.198 1469.86 620.404 1458.43 611.216 1449.71L608.117 1452.98ZM592.509 1499.5L591.119 1495.22C570.217 1502.01 536.682 1505.75 503.102 1505.19C469.429 1504.62 436.695 1499.75 417.095 1489.96L415.085 1493.99L413.075 1498.01C434.546 1508.74 468.962 1513.62 502.952 1514.19C537.035 1514.76 571.676 1511 593.899 1503.78L592.509 1499.5ZM415.085 1493.99L416.905 1489.87C283.22 1430.76 218.743 1423.27 169.008 1434.61L170.008 1439L171.009 1443.39C217.79 1432.72 279.991 1439.18 413.265 1498.1L415.085 1493.99ZM170.008 1439L169.008 1434.61C148.111 1439.38 129.775 1456.32 116.809 1475.39C103.837 1494.48 95.5084 1516.78 95.5084 1533.5H100.008H104.508C104.508 1519.21 111.876 1498.66 124.253 1480.45C136.636 1462.23 153.299 1447.43 171.009 1443.39L170.008 1439ZM816.009 432.14L812.794 435.289C824.468 447.204 836.628 457.839 845.861 476.167C855.052 494.413 861.442 520.614 860.197 563.369L864.695 563.5L869.193 563.631C870.467 519.887 863.958 492.088 853.898 472.118C843.88 452.231 830.437 440.436 819.223 428.99L816.009 432.14ZM864.695 563.5L860.197 563.369C858.701 614.74 854.84 644.802 847.992 668.83C841.138 692.882 831.26 711.06 817.177 738.973L821.195 741L825.213 743.027C839.13 715.44 849.502 696.369 856.648 671.296C863.8 646.198 867.689 615.26 869.193 563.631L864.695 563.5ZM821.195 741L817.177 738.973C790.396 792.058 735.953 804.001 664.722 811.525L665.195 816L665.668 820.475C736.437 813 795.994 800.943 825.213 743.027L821.195 741ZM665.195 816L664.722 811.525C637.73 814.377 605.341 812.913 569.876 809.817C552.168 808.271 533.762 806.326 514.935 804.325C496.122 802.326 476.893 800.273 457.602 798.519L457.195 803L456.788 807.482C475.997 809.228 495.156 811.274 513.984 813.275C532.799 815.274 551.288 817.229 569.093 818.783C604.654 821.887 637.765 823.423 665.668 820.475L665.195 816ZM457.195 803L457.602 798.519C404.745 793.714 358.378 800.11 294.607 833.514L296.695 837.5L298.783 841.487C361.012 808.89 405.645 802.833 456.788 807.482L457.195 803ZM296.695 837.5L294.607 833.514C231.241 866.706 202.536 896.66 196.735 939.902L201.195 940.5L205.655 941.099C210.854 902.34 236.149 874.295 298.783 841.487L296.695 837.5ZM201.195 940.5L196.735 939.902C193.842 961.467 198.889 980.079 206.759 994.333C214.568 1008.48 225.302 1018.59 234.182 1023.03L236.195 1019L238.207 1014.98C231.264 1011.5 221.748 1002.86 214.638 989.983C207.589 977.215 203.048 960.533 205.655 941.099L201.195 940.5ZM236.195 1019L234.182 1023.03C265.088 1038.48 289.118 1038.92 335.204 1043.97L335.695 1039.5L336.186 1035.03C289.272 1029.88 267.302 1029.52 238.207 1014.98L236.195 1019ZM335.695 1039.5L335.204 1043.97C355.903 1046.25 376.81 1046.5 394.317 1047.25C403.136 1047.62 411.076 1048.11 417.855 1049.02C424.691 1049.94 430.002 1051.24 433.729 1053.05L435.695 1049L437.661 1044.95C432.638 1042.51 426.198 1041.06 419.051 1040.1C411.846 1039.14 403.567 1038.63 394.698 1038.25C376.829 1037.5 356.486 1037.26 336.186 1035.03L335.695 1039.5ZM435.695 1049L433.729 1053.05C446.768 1059.38 452.019 1068.2 452.926 1070.92L457.195 1069.5L461.464 1068.08C459.705 1062.8 452.622 1052.22 437.661 1044.95L435.695 1049Z" fill="#211E1E"/>
+</g>
+<defs>
+<filter id="filter0_dfg_3_3" x="0" y="0" width="881.352" height="1538" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="8" dy="-8"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_3"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_3" result="shape"/>
+<feGaussianBlur stdDeviation="2.25" result="effect2_foregroundBlur_3_3"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.27777779102325439 0.27777779102325439" numOctaves="3" seed="3880" />
+<feDisplacementMap in="effect2_foregroundBlur_3_3" scale="4.5999999046325684" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect3_texture_3_3">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+</defs>
+</svg>
+</file>
+
+<file path="eslint.config.js">
+import js from "@eslint/js";
+import globals from "globals";
+import reactHooks from "eslint-plugin-react-hooks";
+import reactRefresh from "eslint-plugin-react-refresh";
+import { defineConfig, globalIgnores } from "eslint/config";
+
+export default defineConfig([
+  globalIgnores(["dist"]),
+  {
+    files: ["**/*.{js,jsx}"],
+    extends: [
+      js.configs.recommended,
+      reactHooks.configs.flat.recommended,
+      reactRefresh.configs.vite,
+    ],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.browser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        ecmaFeatures: { jsx: true },
+        sourceType: 'module',
+      },
+    },
+    rules: {
+      "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]|^motion$" }],
+    },
+  },
+]);
+</file>
+
+<file path="index.html">
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SKETCH — A college club that runs like a platform. Where ideas meet execution, and students become builders." />
+    <meta name="theme-color" content="#0e0e0e" />
+    <title>SKETCH — Where Ideas Become Systems</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+</file>
+
+<file path="postcss.config.js">
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+</file>
+
+<file path="public/favicon.svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="46" fill="none" viewBox="0 0 48 46"><path fill="#863bff" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z" style="fill:#863bff;fill:color(display-p3 .5252 .23 1);fill-opacity:1"/><mask id="a" width="48" height="46" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M25.842 44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.183c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 1.088.89 1.832L25.843 44.94z" style="fill:#000;fill-opacity:1"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#ede6ff" rx="5.508" ry="14.704" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -4.47 31.516)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -39.328 7.883)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#7e14ff" rx="5.508" ry="30.487" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -25.913 -14.639)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -32.644 -3.334)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -34.34 30.47)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="rotate(93.35 24.506 48.493)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx=".387" cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(39.51 .387 8.972)"/></g><g filter="url(#k)"><ellipse cx="47.523" cy="-6.092" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 47.523 -6.092)"/></g><g filter="url(#l)"><ellipse cx="41.412" cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 41.412 6.333)"/></g><g filter="url(#m)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#n)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#o)"><ellipse cx="35.651" cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 35.651 29.907)"/></g><g filter="url(#p)"><ellipse cx="38.418" cy="32.4" fill="#47bfff" rx="5.971" ry="15.297" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 38.418 32.4)"/></g></g><defs><filter id="b" width="60.045" height="41.654" x="-19.77" y="16.149" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-54.613" y="-7.533" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-49.64" y="2.03" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-45.045" y="20.029" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-43.513" y="21.178" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="15.756" y="-17.901" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-27.636" y="-22.853" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="20.116" y="-38.415" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="24.641" y="-11.323" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="8.244" y="-2.416" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="18.713" y="10.588" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter></defs></svg>
+</file>
+
+<file path="public/icons.svg">
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="bluesky-icon" viewBox="0 0 16 17">
+    <g clip-path="url(#bluesky-clip)"><path fill="#08060d" d="M7.75 7.735c-.693-1.348-2.58-3.86-4.334-5.097-1.68-1.187-2.32-.981-2.74-.79C.188 2.065.1 2.812.1 3.251s.241 3.602.398 4.13c.52 1.744 2.367 2.333 4.07 2.145-2.495.37-4.71 1.278-1.805 4.512 3.196 3.309 4.38-.71 4.987-2.746.608 2.036 1.307 5.91 4.93 2.746 2.72-2.746.747-4.143-1.747-4.512 1.702.189 3.55-.4 4.07-2.145.156-.528.397-3.691.397-4.13s-.088-1.186-.575-1.406c-.42-.19-1.06-.395-2.741.79-1.755 1.24-3.64 3.752-4.334 5.099"/></g>
+    <defs><clipPath id="bluesky-clip"><path fill="#fff" d="M.1.85h15.3v15.3H.1z"/></clipPath></defs>
+  </symbol>
+  <symbol id="discord-icon" viewBox="0 0 20 19">
+    <path fill="#08060d" d="M16.224 3.768a14.5 14.5 0 0 0-3.67-1.153c-.158.286-.343.67-.47.976a13.5 13.5 0 0 0-4.067 0c-.128-.306-.317-.69-.476-.976A14.4 14.4 0 0 0 3.868 3.77C1.546 7.28.916 10.703 1.231 14.077a14.7 14.7 0 0 0 4.5 2.306q.545-.748.965-1.587a9.5 9.5 0 0 1-1.518-.74q.191-.14.372-.293c2.927 1.369 6.107 1.369 8.999 0q.183.152.372.294-.723.437-1.52.74.418.838.963 1.588a14.6 14.6 0 0 0 4.504-2.308c.37-3.911-.63-7.302-2.644-10.309m-9.13 8.234c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.894 0 1.614.82 1.599 1.82.001 1-.705 1.82-1.6 1.82m5.91 0c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.893 0 1.614.82 1.599 1.82 0 1-.706 1.82-1.6 1.82"/>
+  </symbol>
+  <symbol id="documentation-icon" viewBox="0 0 21 20">
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="m15.5 13.333 1.533 1.322c.645.555.967.833.967 1.178s-.322.623-.967 1.179L15.5 18.333m-3.333-5-1.534 1.322c-.644.555-.966.833-.966 1.178s.322.623.966 1.179l1.534 1.321"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M17.167 10.836v-4.32c0-1.41 0-2.117-.224-2.68-.359-.906-1.118-1.621-2.08-1.96-.599-.21-1.349-.21-2.848-.21-2.623 0-3.935 0-4.983.369-1.684.591-3.013 1.842-3.641 3.428C3 6.449 3 7.684 3 10.154v2.122c0 2.558 0 3.838.706 4.726q.306.383.713.671c.76.536 1.79.64 3.581.66"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M3 10a2.78 2.78 0 0 1 2.778-2.778c.555 0 1.209.097 1.748-.047.48-.129.854-.503.982-.982.145-.54.048-1.194.048-1.749a2.78 2.78 0 0 1 2.777-2.777"/>
+  </symbol>
+  <symbol id="github-icon" viewBox="0 0 19 19">
+    <path fill="#08060d" fill-rule="evenodd" d="M9.356 1.85C5.05 1.85 1.57 5.356 1.57 9.694a7.84 7.84 0 0 0 5.324 7.44c.387.079.528-.168.528-.376 0-.182-.013-.805-.013-1.454-2.165.467-2.616-.935-2.616-.935-.349-.91-.864-1.143-.864-1.143-.71-.48.051-.48.051-.48.787.051 1.2.805 1.2.805.695 1.194 1.817.857 2.268.649.064-.507.27-.857.49-1.052-1.728-.182-3.545-.857-3.545-3.87 0-.857.31-1.558.8-2.104-.078-.195-.349-1 .077-2.078 0 0 .657-.208 2.14.805a7.5 7.5 0 0 1 1.946-.26c.657 0 1.328.092 1.946.26 1.483-1.013 2.14-.805 2.14-.805.426 1.078.155 1.883.078 2.078.502.546.799 1.247.799 2.104 0 3.013-1.818 3.675-3.558 3.87.284.247.528.714.528 1.454 0 1.052-.012 1.896-.012 2.156 0 .208.142.455.528.377a7.84 7.84 0 0 0 5.324-7.441c.013-4.338-3.48-7.844-7.773-7.844" clip-rule="evenodd"/>
+  </symbol>
+  <symbol id="social-icon" viewBox="0 0 20 20">
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M12.5 6.667a4.167 4.167 0 1 0-8.334 0 4.167 4.167 0 0 0 8.334 0"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M2.5 16.667a5.833 5.833 0 0 1 8.75-5.053m3.837.474.513 1.035c.07.144.257.282.414.309l.93.155c.596.1.736.536.307.965l-.723.73a.64.64 0 0 0-.152.531l.207.903c.164.715-.213.991-.84.618l-.872-.52a.63.63 0 0 0-.577 0l-.872.52c-.624.373-1.003.094-.84-.618l.207-.903a.64.64 0 0 0-.152-.532l-.723-.729c-.426-.43-.289-.864.306-.964l.93-.156a.64.64 0 0 0 .412-.31l.513-1.034c.28-.562.735-.562 1.012 0"/>
+  </symbol>
+  <symbol id="x-icon" viewBox="0 0 19 19">
+    <path fill="#08060d" fill-rule="evenodd" d="M1.893 1.98c.052.072 1.245 1.769 2.653 3.77l2.892 4.114c.183.261.333.48.333.486s-.068.089-.152.183l-.522.593-.765.867-3.597 4.087c-.375.426-.734.834-.798.905a1 1 0 0 0-.118.148c0 .01.236.017.664.017h.663l.729-.83c.4-.457.796-.906.879-.999a692 692 0 0 0 1.794-2.038c.034-.037.301-.34.594-.675l.551-.624.345-.392a7 7 0 0 1 .34-.374c.006 0 .93 1.306 2.052 2.903l2.084 2.965.045.063h2.275c1.87 0 2.273-.003 2.266-.021-.008-.02-1.098-1.572-3.894-5.547-2.013-2.862-2.28-3.246-2.273-3.266.008-.019.282-.332 2.085-2.38l2-2.274 1.567-1.782c.022-.028-.016-.03-.65-.03h-.674l-.3.342a871 871 0 0 1-1.782 2.025c-.067.075-.405.458-.75.852a100 100 0 0 1-.803.91c-.148.172-.299.344-.99 1.127-.304.343-.32.358-.345.327-.015-.019-.904-1.282-1.976-2.808L6.365 1.85H1.8zm1.782.91 8.078 11.294c.772 1.08 1.413 1.973 1.425 1.984.016.017.241.02 1.05.017l1.03-.004-2.694-3.766L7.796 5.75 5.722 2.852l-1.039-.004-1.039-.004z" clip-rule="evenodd"/>
+  </symbol>
+</svg>
+</file>
+
 <file path="public/Sketch.svg">
 <svg width="1029" height="307" viewBox="0 0 1029 307" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M863.369 265.6C861.295 265.867 858.925 265.2 856.258 263.6C853.888 261.733 851.666 260.133 849.593 258.8C846.63 255.6 844.556 252.8 843.371 250.4C842.186 248 841.594 245.333 841.594 242.4C841.594 239.467 841.89 236 842.482 232C843.964 227.733 845.741 222 847.815 214.8C849.889 207.6 852.407 199.867 855.37 191.6C855.962 188.4 856.999 184.667 858.48 180.4C860.258 175.867 862.036 171.6 863.813 167.6C865.591 163.333 866.924 160.133 867.813 158C869.886 151.333 871.96 144.933 874.034 138.8C876.404 132.667 879.219 125.6 882.478 117.6C885.736 109.6 889.736 99.4667 894.476 87.2C900.994 71.2 905.882 59.2 909.141 51.2C912.4 43.2 914.77 37.4667 916.251 34C917.733 30.5333 918.769 27.7333 919.362 25.6C919.362 23.4667 920.991 21.4667 924.25 19.6C927.805 17.4667 930.916 16.4 933.582 16.4C937.73 16.6667 941.73 18.9333 945.581 23.2C949.432 27.2 952.099 32.1333 953.58 38C955.061 43.6 954.024 49.0667 950.469 54.4C945.729 64 940.989 74.8 936.249 86.8C931.805 98.5333 927.361 110.267 922.917 122C918.473 133.733 914.029 144.533 909.585 154.4C909.289 155.733 908.252 158 906.475 161.2C904.993 164.4 903.66 167.067 902.475 169.2C901.29 171.333 900.105 173.333 898.92 175.2C898.031 177.067 897.587 178 897.587 178C897.291 179.6 896.698 181.867 895.809 184.8C894.92 187.733 894.032 190.267 893.143 192.4C892.847 193.733 892.402 195.467 891.81 197.6C891.217 199.733 890.773 201.867 890.477 204C891.958 202.4 894.032 200.533 896.698 198.4C899.364 196 902.771 193.067 906.919 189.6C911.659 185.867 915.807 182.667 919.362 180C922.917 177.333 926.472 174.933 930.027 172.8C933.286 170.667 936.249 168.667 938.915 166.8C941.878 164.933 943.359 164 943.359 164C943.952 163.2 944.544 162.267 945.137 161.2C946.025 160.133 946.914 159.467 947.803 159.2C948.396 158.667 949.432 158 950.914 157.2C952.395 156.133 953.876 155.067 955.358 154C958.024 152.4 960.838 151.067 963.801 150C966.764 148.933 969.874 148.133 973.133 147.6C976.392 147.067 979.503 146.8 982.465 146.8C986.021 146.8 989.724 148.133 993.575 150.8C997.427 153.2 1000.98 156.667 1004.24 161.2C1007.2 164.667 1008.98 168.8 1009.57 173.6C1010.46 178.133 1010.61 184.267 1010.02 192C1010.02 194.133 1009.28 198.133 1007.8 204C1006.61 209.867 1005.72 214.267 1005.13 217.2L1001.13 230.8H1004.69C1007.94 229.733 1011.05 229.6 1014.02 230.4C1017.28 231.2 1018.91 231.6 1018.91 231.6C1020.39 232.4 1021.72 233.333 1022.91 234.4C1024.39 235.467 1025.72 236.267 1026.9 236.8C1028.68 238.933 1028.39 242 1026.02 246C1023.65 250 1020.98 252.8 1018.02 254.4C1010.91 258.667 1004.54 261.333 998.908 262.4C993.575 263.467 987.946 262.533 982.021 259.6C976.392 256.133 972.541 252 970.467 247.2C968.689 242.4 967.949 235.867 968.245 227.6C969.43 215.867 970.171 207.467 970.467 202.4C970.763 197.067 969.282 194.4 966.023 194.4C962.468 194.4 957.58 196 951.358 199.2C945.433 202.133 938.767 206.267 931.361 211.6C923.954 216.667 916.548 222.4 909.141 228.8C902.031 234.933 895.661 241.2 890.032 247.6C886.477 251.6 882.626 255.6 878.478 259.6C874.33 263.333 869.294 265.333 863.369 265.6Z" fill="#E8E6E1"/>
@@ -589,6 +708,68 @@ This section contains the contents of the repository's files.
 </svg>
 </file>
 
+<file path="README.md">
+# SKETCH Website
+
+A multi-page website for the college club **SKETCH**, built with React, Vite, Tailwind CSS, and Framer Motion.
+
+## 🚀 Features
+
+- **Scroll-Driven Hero**: Smooth image sequence animation on the landing page.
+- **Glassmorphism Design**: Modern, dark-themed UI with subtle glass effects.
+- **Aceternity UI Components**: Integration of advanced animations and interactive components.
+- **Responsive Layout**: Fully optimized for mobile and desktop devices.
+- **Animated Transitions**: Seamless page and component transitions using Framer Motion.
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Routing**: React Router DOM
+- **Icons**: Tabler Icons
+- **Components**: Aceternity UI
+
+## 📦 Getting Started
+
+### Installation
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## 🌐 Deployment
+
+The project is configured for **Vercel** with zero-config. Simply push the repository to GitHub and connect it to Vercel.
+
+- **Root Directory**: `.` (Root)
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+
+## 📄 License
+
+This project is private to the SKETCH club.
+</file>
+
+<file path="src/assets/react.svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="35.93" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 228"><path fill="#00D8FF" d="M210.483 73.824a171.49 171.49 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621c6.238-30.281 2.16-54.676-11.769-62.708c-13.355-7.7-35.196.329-57.254 19.526a171.23 171.23 0 0 0-6.375 5.848a155.866 155.866 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233C50.33 10.957 46.379 33.89 51.995 62.588a170.974 170.974 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.309 83.498 0 98.307 0 113.668c0 15.865 18.582 31.778 46.812 41.427a145.52 145.52 0 0 0 6.921 2.165a167.467 167.467 0 0 0-2.01 9.138c-5.354 28.2-1.173 50.591 12.134 58.266c13.744 7.926 36.812-.22 59.273-19.855a145.567 145.567 0 0 0 5.342-4.923a168.064 168.064 0 0 0 6.92 6.314c21.758 18.722 43.246 26.282 56.54 18.586c13.731-7.949 18.194-32.003 12.4-61.268a145.016 145.016 0 0 0-1.535-6.842c1.62-.48 3.21-.974 4.76-1.488c29.348-9.723 48.443-25.443 48.443-41.52c0-15.417-17.868-30.326-45.517-39.844Zm-6.365 70.984c-1.4.463-2.836.91-4.3 1.345c-3.24-10.257-7.612-21.163-12.963-32.432c5.106-11 9.31-21.767 12.459-31.957c2.619.758 5.16 1.557 7.61 2.4c23.69 8.156 38.14 20.213 38.14 29.504c0 9.896-15.606 22.743-40.946 31.14Zm-10.514 20.834c2.562 12.94 2.927 24.64 1.23 33.787c-1.524 8.219-4.59 13.698-8.382 15.893c-8.067 4.67-25.32-1.4-43.927-17.412a156.726 156.726 0 0 1-6.437-5.87c7.214-7.889 14.423-17.06 21.459-27.246c12.376-1.098 24.068-2.894 34.671-5.345a134.17 134.17 0 0 1 1.386 6.193ZM87.276 214.515c-7.882 2.783-14.16 2.863-17.955.675c-8.075-4.657-11.432-22.636-6.853-46.752a156.923 156.923 0 0 1 1.869-8.499c10.486 2.32 22.093 3.988 34.498 4.994c7.084 9.967 14.501 19.128 21.976 27.15a134.668 134.668 0 0 1-4.877 4.492c-9.933 8.682-19.886 14.842-28.658 17.94ZM50.35 144.747c-12.483-4.267-22.792-9.812-29.858-15.863c-6.35-5.437-9.555-10.836-9.555-15.216c0-9.322 13.897-21.212 37.076-29.293c2.813-.98 5.757-1.905 8.812-2.773c3.204 10.42 7.406 21.315 12.477 32.332c-5.137 11.18-9.399 22.249-12.634 32.792a134.718 134.718 0 0 1-6.318-1.979Zm12.378-84.26c-4.811-24.587-1.616-43.134 6.425-47.789c8.564-4.958 27.502 2.111 47.463 19.835a144.318 144.318 0 0 1 3.841 3.545c-7.438 7.987-14.787 17.08-21.808 26.988c-12.04 1.116-23.565 2.908-34.161 5.309a160.342 160.342 0 0 1-1.76-7.887Zm110.427 27.268a347.8 347.8 0 0 0-7.785-12.803c8.168 1.033 15.994 2.404 23.343 4.08c-2.206 7.072-4.956 14.465-8.193 22.045a381.151 381.151 0 0 0-7.365-13.322Zm-45.032-43.861c5.044 5.465 10.096 11.566 15.065 18.186a322.04 322.04 0 0 0-30.257-.006c4.974-6.559 10.069-12.652 15.192-18.18ZM82.802 87.83a323.167 323.167 0 0 0-7.227 13.238c-3.184-7.553-5.909-14.98-8.134-22.152c7.304-1.634 15.093-2.97 23.209-3.984a321.524 321.524 0 0 0-7.848 12.897Zm8.081 65.352c-8.385-.936-16.291-2.203-23.593-3.793c2.26-7.3 5.045-14.885 8.298-22.6a321.187 321.187 0 0 0 7.257 13.246c2.594 4.48 5.28 8.868 8.038 13.147Zm37.542 31.03c-5.184-5.592-10.354-11.779-15.403-18.433c4.902.192 9.899.29 14.978.29c5.218 0 10.376-.117 15.453-.343c-4.985 6.774-10.018 12.97-15.028 18.486Zm52.198-57.817c3.422 7.8 6.306 15.345 8.596 22.52c-7.422 1.694-15.436 3.058-23.88 4.071a382.417 382.417 0 0 0 7.859-13.026a347.403 347.403 0 0 0 7.425-13.565Zm-16.898 8.101a358.557 358.557 0 0 1-12.281 19.815a329.4 329.4 0 0 1-23.444.823c-7.967 0-15.716-.248-23.178-.732a310.202 310.202 0 0 1-12.513-19.846h.001a307.41 307.41 0 0 1-10.923-20.627a310.278 310.278 0 0 1 10.89-20.637l-.001.001a307.318 307.318 0 0 1 12.413-19.761c7.613-.576 15.42-.876 23.31-.876H128c7.926 0 15.743.303 23.354.883a329.357 329.357 0 0 1 12.335 19.695a358.489 358.489 0 0 1 11.036 20.54a329.472 329.472 0 0 1-11 20.722Zm22.56-122.124c8.572 4.944 11.906 24.881 6.52 51.026c-.344 1.668-.73 3.367-1.15 5.09c-10.622-2.452-22.155-4.275-34.23-5.408c-7.034-10.017-14.323-19.124-21.64-27.008a160.789 160.789 0 0 1 5.888-5.4c18.9-16.447 36.564-22.941 44.612-18.3ZM128 90.808c12.625 0 22.86 10.235 22.86 22.86s-10.235 22.86-22.86 22.86s-22.86-10.235-22.86-22.86s10.235-22.86 22.86-22.86Z"></path></svg>
+</file>
+
+<file path="src/assets/vite.svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="47" fill="none" aria-labelledby="vite-logo-title" viewBox="0 0 77 47"><title id="vite-logo-title">Vite</title><style>.parenthesis{fill:#000}@media (prefers-color-scheme:dark){.parenthesis{fill:#fff}}</style><path fill="#9135ff" d="M40.151 45.71c-.663.844-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.493c-.92 0-1.457-1.04-.92-1.788l7.479-10.471c1.07-1.498 0-3.578-1.842-3.578H15.443c-.92 0-1.456-1.04-.92-1.788l9.696-13.576c.213-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.472c-1.07 1.497 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.087.89 1.83L40.153 45.712z"/><mask id="a" width="48" height="47" x="14" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M40.047 45.71c-.663.843-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.389c-.92 0-1.457-1.04-.92-1.788l7.479-10.472c1.07-1.497 0-3.578-1.842-3.578H15.34c-.92 0-1.456-1.04-.92-1.788l9.696-13.575c.213-.297.556-.474.92-.474H53.93c.92 0 1.456 1.04.92 1.788L47.37 13.03c-1.07 1.498 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.088.89 1.831L40.049 45.712z"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#eee6ff" rx="5.508" ry="14.704" transform="rotate(269.814 20.96 11.29)scale(-1 1)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#eee6ff" rx="10.399" ry="29.851" transform="rotate(89.814 -16.902 -8.275)scale(1 -1)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#8900ff" rx="5.508" ry="30.487" transform="rotate(89.814 -19.197 -7.127)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.928 4.177)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.738 5.52)scale(1 -1)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#eee6ff" rx="14.072" ry="22.078" transform="rotate(93.35 31.245 55.578)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx="14.592" cy="9.743" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(39.51 14.592 9.743)"/></g><g filter="url(#k)"><ellipse cx="61.728" cy="-5.321" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 61.728 -5.32)"/></g><g filter="url(#l)"><ellipse cx="55.618" cy="7.104" fill="#00c2ff" rx="5.971" ry="9.665" transform="rotate(37.892 55.618 7.104)"/></g><g filter="url(#m)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#n)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#o)"><ellipse cx="49.857" cy="30.678" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 49.857 30.678)"/></g><g filter="url(#p)"><ellipse cx="52.623" cy="33.171" fill="#00c2ff" rx="5.971" ry="15.297" transform="rotate(37.892 52.623 33.17)"/></g></g><path d="M6.919 0c-9.198 13.166-9.252 33.575 0 46.789h6.215c-9.25-13.214-9.196-33.623 0-46.789zm62.424 0h-6.215c9.198 13.166 9.252 33.575 0 46.789h6.215c9.25-13.214 9.196-33.623 0-46.789" class="parenthesis"/><defs><filter id="b" width="60.045" height="41.654" x="-5.564" y="16.92" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-40.407" y="-6.762" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-35.435" y="2.801" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-30.84" y="20.8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-29.307" y="21.949" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="29.961" y="-17.13" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-13.43" y="-22.082" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="34.321" y="-37.644" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="38.847" y="-10.552" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="22.45" y="-1.645" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="32.919" y="11.36" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter></defs></svg>
+</file>
+
 <file path="src/components/HomeBackground.jsx">
 import { useMediaQuery } from "../hooks/use-media-query";
 
@@ -596,7 +777,7 @@ export default function HomeBackground() {
   const isMobile = useMediaQuery("(max-width: 767px)");
 
   return (
-    <div className="fixed inset-0 -z-10 bg-[#0e0e0e]">
+    <div className="pointer-events-none fixed inset-0 z-0 bg-[#0e0e0e]">
       {isMobile ? (
         <div className="absolute top-0 left-0 right-0 h-[70vh] bg-gradient-to-b from-purple-900/15 to-transparent" />
       ) : (
@@ -728,6 +909,78 @@ export default function SketchLine({ containerClassName = "" }) {
 }
 </file>
 
+<file path="src/components/ui/background-beams.tsx">
+"use client";
+import React, { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
+
+export const BackgroundBeams = ({ className }) => {
+  const svgRef = useRef(null);
+  const [paths, setPaths] = useState([]);
+
+  useEffect(() => {
+    const generatePaths = () => {
+      const newPaths = [];
+      for (let i = 0; i < 20; i++) {
+        const startX = Math.random() * 100;
+        const endX = startX + (Math.random() - 0.5) * 40;
+        const controlX1 = startX + (Math.random() - 0.5) * 20;
+        const controlX2 = endX + (Math.random() - 0.5) * 20;
+        newPaths.push({
+          d: `M${startX} 0 C ${controlX1} 33, ${controlX2} 66, ${endX} 100`,
+          delay: Math.random() * 2,
+          duration: 3 + Math.random() * 4,
+        });
+      }
+      return newPaths;
+    };
+    setPaths(generatePaths());
+  }, []);
+
+  return (
+    <div className={cn("absolute inset-0 overflow-hidden", className)}>
+      <svg
+        ref={svgRef}
+        className="absolute inset-0 w-full h-full"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+        fill="none"
+      >
+        {paths.map((path, index) => (
+          <motion.path
+            key={index}
+            d={path.d}
+            stroke="url(#beam-gradient)"
+            strokeWidth="0.15"
+            strokeOpacity="0.4"
+            initial={{ pathLength: 0, opacity: 0 }}
+            animate={{
+              pathLength: [0, 1],
+              opacity: [0, 0.5, 0],
+            }}
+            transition={{
+              duration: path.duration,
+              delay: path.delay,
+              repeat: Infinity,
+              repeatDelay: Math.random() * 3,
+              ease: "easeInOut",
+            }}
+          />
+        ))}
+        <defs>
+          <linearGradient id="beam-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="rgba(255,255,255,0)" />
+            <stop offset="50%" stopColor="rgba(255,255,255,0.8)" />
+            <stop offset="100%" stopColor="rgba(255,255,255,0)" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  );
+};
+</file>
+
 <file path="src/components/ui/button.tsx">
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
@@ -781,6 +1034,166 @@ Button.displayName = "Button"
 export { Button, buttonVariants }
 </file>
 
+<file path="src/components/ui/card-hover-effect.tsx">
+"use client";
+import { cn } from "@/lib/utils";
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
+
+export const HoverEffect = ({ items, className }) => {
+  let [hoveredIndex, setHoveredIndex] = useState(null);
+
+  return (
+    <div
+      className={cn(
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10",
+        className
+      )}
+    >
+      {items.map((item, idx) => (
+        <div
+          key={idx}
+          className="relative group block p-2 h-full w-full"
+          onMouseEnter={() => setHoveredIndex(idx)}
+          onMouseLeave={() => setHoveredIndex(null)}
+        >
+          <AnimatePresence>
+            {hoveredIndex === idx && (
+              <motion.span
+                className="absolute inset-0 h-full w-full bg-white/[0.08] block rounded-3xl"
+                layoutId="hoverBackground"
+                initial={{ opacity: 0 }}
+                animate={{
+                  opacity: 1,
+                  transition: { duration: 0.15 },
+                }}
+                exit={{
+                  opacity: 0,
+                  transition: { duration: 0.15, delay: 0.2 },
+                }}
+              />
+            )}
+          </AnimatePresence>
+          <Card>
+            <CardTitle>{item.title}</CardTitle>
+            <CardDescription>{item.description}</CardDescription>
+          </Card>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export const Card = ({ className, children }) => {
+  return (
+    <div
+      className={cn(
+        "rounded-2xl h-full w-full p-4 overflow-hidden bg-white/[0.03] border border-white/[0.1] group-hover:border-white/[0.2] relative z-20 transition-colors duration-300",
+        className
+      )}
+    >
+      <div className="relative z-50">
+        <div className="p-4">{children}</div>
+      </div>
+    </div>
+  );
+};
+
+export const CardTitle = ({ className, children }) => {
+  return (
+    <h4 className={cn("text-white font-bold tracking-wide mt-4", className)}>
+      {children}
+    </h4>
+  );
+};
+
+export const CardDescription = ({ className, children }) => {
+  return (
+    <p
+      className={cn(
+        "mt-4 text-neutral-400 tracking-wide leading-relaxed text-sm",
+        className
+      )}
+    >
+      {children}
+    </p>
+  );
+};
+</file>
+
+<file path="src/components/ui/draggable-card.tsx">
+"use client";
+import React, { useRef, useState, useEffect } from "react";
+import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { cn } from "@/lib/utils";
+
+export function DraggableCardContainer({ children, className }) {
+  return (
+    <div className={cn("relative", className)}>
+      {children}
+    </div>
+  );
+}
+
+export function DraggableCardBody({ children, className }) {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+
+  const cardRef = useRef(null);
+  const dragStartPos = useRef({ x: 0, y: 0 });
+
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    dragStartPos.current = {
+      x: e.clientX - position.x,
+      y: e.clientY - position.y,
+    };
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    setPosition({
+      x: e.clientX - dragStartPos.current.x,
+      y: e.clientY - dragStartPos.current.y,
+    });
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  useEffect(() => {
+    if (isDragging) {
+      window.addEventListener("mousemove", handleMouseMove);
+      window.addEventListener("mouseup", handleMouseUp);
+    }
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mouseup", handleMouseUp);
+    };
+  }, [isDragging]);
+
+  return (
+    <motion.div
+      ref={cardRef}
+      className={cn(
+        "cursor-grab active:cursor-grabbing rounded-xl overflow-hidden shadow-xl border border-white/10",
+        className
+      )}
+      style={{
+        x: position.x,
+        y: position.y,
+      }}
+      onMouseDown={handleMouseDown}
+      whileHover={{ scale: 1.05 }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+</file>
+
 <file path="src/components/ui/input.tsx">
 import * as React from "react"
 
@@ -828,6 +1241,38 @@ const Label = React.forwardRef(({ className, ...props }, ref) => (
 Label.displayName = LabelPrimitive.Root.displayName
 
 export { Label }
+</file>
+
+<file path="src/components/ui/loader.tsx">
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
+
+export function LoaderOne({ className }) {
+  const bars = Array.from({ length: 5 });
+
+  return (
+    <div className={cn("flex items-center justify-center gap-1", className)}>
+      {bars.map((_, i) => (
+        <motion.div
+          key={i}
+          className="w-1.5 bg-white rounded-full"
+          initial={{ height: 12 }}
+          animate={{
+            height: [12, 28, 12],
+          }}
+          transition={{
+            duration: 0.8,
+            repeat: Infinity,
+            delay: i * 0.15,
+            ease: "easeInOut",
+          }}
+        />
+      ))}
+    </div>
+  );
+}
 </file>
 
 <file path="src/components/ui/menu-toggle.tsx">
@@ -1099,1187 +1544,6 @@ export function SimpleHeader() {
 }
 </file>
 
-<file path="src/components/ui/typewriter-text.tsx">
-"use client";
-
-import * as React from "react"
-import { useEffect, useState, useRef } from "react";
-import { useInView } from "framer-motion";
- 
-export interface TypewriterProps {
-  text: string | string[];
-  speed?: number;
-  cursor?: string;
-  loop?: boolean;
-  deleteSpeed?: number;
-  delay?: number;
-  className?: string;
-}
- 
-export function Typewriter({
-  text,
-  speed = 100,
-  cursor = "|",
-  loop = false,
-  deleteSpeed = 50,
-  delay = 1500,
-  className,
-}: TypewriterProps) {
-  const [displayText, setDisplayText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [textArrayIndex, setTextArrayIndex] = useState(0);
-  const [hasStarted, setHasStarted] = useState(false);
- 
-  const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true, margin: "-100px" });
-
-  useEffect(() => {
-    if (isInView && !hasStarted) {
-      setHasStarted(true);
-    }
-  }, [isInView, hasStarted]);
-
-  // Validate and process input text
-  const textArray = Array.isArray(text) ? text : [text];
-  const currentText = textArray[textArrayIndex] || "";
- 
-  useEffect(() => {
-    if (!currentText || !hasStarted) return;
- 
-    const timeout = setTimeout(
-      () => {
-        if (!isDeleting) {
-          if (currentIndex < currentText.length) {
-            setDisplayText((prev) => prev + currentText[currentIndex]);
-            setCurrentIndex((prev) => prev + 1);
-          } else if (loop) {
-            setTimeout(() => setIsDeleting(true), delay);
-          }
-        } else {
-          if (displayText.length > 0) {
-            setDisplayText((prev) => prev.slice(0, -1));
-          } else {
-            setIsDeleting(false);
-            setCurrentIndex(0);
-            setTextArrayIndex((prev) => (prev + 1) % textArray.length);
-          }
-        }
-      },
-      isDeleting ? deleteSpeed : speed,
-    );
- 
-    return () => clearTimeout(timeout);
-  }, [
-    currentIndex,
-    isDeleting,
-    currentText,
-    loop,
-    speed,
-    deleteSpeed,
-    delay,
-    displayText,
-    text,
-    hasStarted,
-  ]);
- 
-  return (
-    <span ref={containerRef} className={className}>
-      {displayText}
-      <span className="animate-pulse">{cursor}</span>
-    </span>
-  );
-}
-</file>
-
-<file path="src/hooks/use-reduced-motion.js">
-import { useMediaQuery } from "./use-media-query";
-
-export function usePrefersReducedMotion() {
-  return useMediaQuery("(prefers-reduced-motion: reduce)");
-}
-</file>
-
-<file path="eslint.config.js">
-import js from "@eslint/js";
-import globals from "globals";
-import reactHooks from "eslint-plugin-react-hooks";
-import reactRefresh from "eslint-plugin-react-refresh";
-import { defineConfig, globalIgnores } from "eslint/config";
-
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{js,jsx}"],
-    extends: [
-      js.configs.recommended,
-      reactHooks.configs.flat.recommended,
-      reactRefresh.configs.vite,
-    ],
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
-      },
-    },
-    rules: {
-      "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]|^motion$" }],
-    },
-  },
-]);
-</file>
-
-<file path="HOOK.md">
-# SKETCH Website - LLM Continuation Hook
-
-## Project Overview
-Multi-page website for a college club called **SKETCH** using React + Vite + Tailwind CSS + Framer Motion + Aceternity UI components.
-
-## Tech Stack
-- **Framework**: React 18 + Vite
-- **Styling**: Tailwind CSS v3 with darkMode: 'class'
-- **Animations**: Framer Motion
-- **Routing**: React Router DOM v6
-- **UI Components**: Aceternity UI (custom .tsx files in src/components/ui/)
-- **Icons**: @tabler/icons-react
-- **Email**: @emailjs/browser
-- **Utilities**: clsx + tailwind-merge (cn() helper in src/lib/utils.ts)
-
-## Design System
-- Background: `#0e0e0e`
-- Primary text: `#ffffff`
-- Secondary text: `#a0a0a0`
-- Accent: `#e8e8e0` (off-white)
-- Glassmorphism: `rgba(255,255,255,0.05)` bg + `backdrop-blur-md` + `1px solid rgba(255,255,255,0.08)` border
-- Font: Inter (Google Fonts)
-- Dark mode only — no light toggle
-
-## Routes
-| Path | Page Component | Description |
-|------|---------------|-------------|
-| `/` | Home.jsx | Scroll video hero + CTA with Typewriter + Flipping Board |
-| `/about` | About.jsx | EncryptedText heading + Story + Value Cards (HoverEffect) + Timeline + Draggable Team Cards |
-| `/departments` | Departments.jsx | EncryptedText heading + 4x EvervaultCard (R&D, Design, O&PR, Marketing) |
-| `/projects` | Projects.jsx | EncryptedText heading + Filter bar + 3D project cards |
-| `/join` | Join.jsx | EncryptedText heading + BackgroundBeams + Glass form + EmailJS |
-
-## Global Components
-- **Navbar**: FloatingNav (Aceternity) with SKETCH logo, 5 nav items using @tabler/icons-react
-- **Loader**: LoaderOne (Aceternity) — 1.5s initial load + route transition fades
-- **PageTransition**: Framer Motion wrapper (opacity+Y slide, duration 0.4s, AnimatePresence mode="wait")
-- **Footer**: Simple site footer
-
-## Folder Structure
-```
-src/
-  assets/           ← hero.mp4 (scroll-driven video, added manually)
-  components/
-    ui/             ← All Aceternity components (.tsx)
-      floating-navbar.tsx
-      typewriter-effect.tsx
-      text-flipping-board.tsx
-      spotlight.tsx
-      evervault-card.tsx
-      3d-card.tsx
-      card-hover-effect.tsx
-      draggable-card.tsx
-      encrypted-text.tsx
-      timeline.tsx
-      background-beams.tsx
-      loader.tsx
-    Navbar.jsx
-    Footer.jsx
-    PageTransition.jsx
-  pages/
-    Home.jsx
-    About.jsx
-    Departments.jsx
-    Projects.jsx
-    Join.jsx
-  lib/
-    utils.ts        ← cn() helper
-  App.jsx
-  main.jsx
-  index.css
-```
-
-## Current Progress
-> **Last updated: 2026-04-17**
-
-### ✅ Completed
-- Project scaffolded with Vite + React
-- All dependencies installed (react-router-dom, framer-motion, tailwindcss, @tabler/icons-react, @emailjs/browser, clsx, tailwind-merge)
-- Tailwind CSS configured with darkMode: 'class'
-- Vite configured with @ path alias
-- src/lib/utils.ts with cn() helper
-- index.css with design system + glass + scrollbar + spotlight animation
-- index.html with SEO meta tags
-- All 12 Aceternity UI components created in src/components/ui/
-- Navbar.jsx with FloatingNav + SKETCH logo
-- Footer.jsx with brand, links, departments, bottom bar
-- PageTransition.jsx with Framer Motion fade+slide
-- Home.jsx — scroll video hero + Spotlight CTA + TypewriterEffect + TextFlippingBoard
-- About.jsx — EncryptedText + story + HoverEffect values + Timeline + DraggableCard team
-- Departments.jsx — 4x EvervaultCard in 2x2 grid with skill tags
-- Projects.jsx — filter bar + 6x 3D project cards with AnimatePresence
-- Join.jsx — BackgroundBeams + glassmorphism form + EmailJS (TODO credentials)
-- App.jsx with routing + AnimatePresence + LoaderOne
-- main.jsx with BrowserRouter
-- Hero video copied to public/hero.mp4
-- **Production build passes with 0 errors**
-
-### 🔄 Potential Improvements
-- Add EmailJS credentials for real form submission
-- Visual browser testing (browser tool was unavailable)
-- Add responsive polish if needed after visual check
-- Verify scroll-driven video works with actual hero.mp4 content
-
-### ❌ Not Started
-- (nothing critical remaining — all pages and components are built)
-
-## Key Implementation Notes
-
-### Aceternity UI Components
-- All component source code is in `src/components/ui/` — import from there directly
-- Components use `framer-motion` (imported as `motion` from `"motion/react"` in some, `"framer-motion"` in others — normalize to `"framer-motion"`)
-- Components use `cn()` from `@/lib/utils` — uses clsx + tailwind-merge
-- `.tsx` files for UI components, `.jsx` for pages and layout components
-
-### Home Page Specifics
-- **Scroll Video Hero**: 300vh height container, sticky video, scroll progress controls `video.currentTime`
-- **CTA**: Spotlight bg + TypewriterEffectSmooth with words: "This is not a club. This is a platform." (style "platform." with accent color)
-- **Flipping Board**: Rotate messages every 6s: "SKETCH IS A PLATFORM", "IDEAS BECOME SYSTEMS", "BUILD. SHIP. REPEAT.", "THIS IS NOT A CLUB.", "WHERE IDEAS MEET EXECUTION"
-
-### About Page Specifics
-- Timeline data: Day One → First Cohort → First Shipped → Scaling Up (text only, no images)
-- Team: 6 draggable cards — President, Design Lead, R&D Lead, Marketing Head, Ops Lead, Dev Lead
-
-### Projects Page Specifics
-- Filter: All / R&D / Design / O&PR / Marketing
-- 6 project cards with unsplash images (URLs in PLAN.MD)
-- AnimatePresence + layout animation on filter
-
-### Join Page Specifics
-- Form fields: Full Name, Email, Year (select), Department Preference (select), Why join (textarea)
-- EmailJS credentials: TODO placeholders
-- Success state: hide form, show thank you message
-
-### Animations Summary
-- Every page: PageTransition wrapper (fadeIn + Y slide)
-- Every section heading: whileInView fadeUp, once: true
-- Every card grid: staggerChildren 0.1–0.2s
-- Card hover: scale 1.02 + border opacity increase
-- Filter changes: AnimatePresence + layout animation
-- Route changes: AnimatePresence mode="wait"
-
-## Reference Files
-- `PLAN.MD` — Full detailed specification
-- `COMPONENTS.MD` — Aceternity UI component demo code and source
-- `TEMPLATES/` — Contains hero video (hero.mp4) and logo images
-
-## How to Continue
-1. Read this HOOK.md file first
-2. Check the "Current Progress" section above
-3. Read PLAN.MD for detailed specs on what to build next
-4. Read COMPONENTS.MD for Aceternity UI component usage examples
-5. Continue from the next uncompleted task
-6. Update the "Current Progress" section as you go
-</file>
-
-<file path="index.html">
-<!doctype html>
-<html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="SKETCH — A college club that runs like a platform. Where ideas meet execution, and students become builders." />
-    <meta name="theme-color" content="#0e0e0e" />
-    <title>SKETCH — Where Ideas Become Systems</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
-</file>
-
-<file path="package.json">
-{
-  "name": "app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "@radix-ui/react-dialog": "^1.1.16",
-    "@radix-ui/react-label": "^2.1.9",
-    "@radix-ui/react-slot": "^1.2.5",
-    "@tabler/icons-react": "^3.41.1",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.38.0",
-    "lucide-react": "^1.18.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-router-dom": "^7.14.1",
-    "tailwind-merge": "^3.5.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "autoprefixer": "^10.5.0",
-    "eslint": "^9.39.4",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.4.0",
-    "postcss": "^8.5.10",
-    "tailwindcss": "^3.4.19",
-    "vite": "^8.0.4"
-  }
-}
-</file>
-
-<file path="postcss.config.js">
-export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
-</file>
-
-<file path="public/favicon.svg">
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="46" fill="none" viewBox="0 0 48 46"><path fill="#863bff" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z" style="fill:#863bff;fill:color(display-p3 .5252 .23 1);fill-opacity:1"/><mask id="a" width="48" height="46" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M25.842 44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.183c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 1.088.89 1.832L25.843 44.94z" style="fill:#000;fill-opacity:1"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#ede6ff" rx="5.508" ry="14.704" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -4.47 31.516)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -39.328 7.883)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#7e14ff" rx="5.508" ry="30.487" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -25.913 -14.639)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -32.644 -3.334)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -34.34 30.47)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="rotate(93.35 24.506 48.493)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx=".387" cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(39.51 .387 8.972)"/></g><g filter="url(#k)"><ellipse cx="47.523" cy="-6.092" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 47.523 -6.092)"/></g><g filter="url(#l)"><ellipse cx="41.412" cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 41.412 6.333)"/></g><g filter="url(#m)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#n)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#o)"><ellipse cx="35.651" cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 35.651 29.907)"/></g><g filter="url(#p)"><ellipse cx="38.418" cy="32.4" fill="#47bfff" rx="5.971" ry="15.297" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 38.418 32.4)"/></g></g><defs><filter id="b" width="60.045" height="41.654" x="-19.77" y="16.149" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-54.613" y="-7.533" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-49.64" y="2.03" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-45.045" y="20.029" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-43.513" y="21.178" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="15.756" y="-17.901" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-27.636" y="-22.853" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="20.116" y="-38.415" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="24.641" y="-11.323" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="8.244" y="-2.416" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="18.713" y="10.588" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter></defs></svg>
-</file>
-
-<file path="public/icons.svg">
-<svg xmlns="http://www.w3.org/2000/svg">
-  <symbol id="bluesky-icon" viewBox="0 0 16 17">
-    <g clip-path="url(#bluesky-clip)"><path fill="#08060d" d="M7.75 7.735c-.693-1.348-2.58-3.86-4.334-5.097-1.68-1.187-2.32-.981-2.74-.79C.188 2.065.1 2.812.1 3.251s.241 3.602.398 4.13c.52 1.744 2.367 2.333 4.07 2.145-2.495.37-4.71 1.278-1.805 4.512 3.196 3.309 4.38-.71 4.987-2.746.608 2.036 1.307 5.91 4.93 2.746 2.72-2.746.747-4.143-1.747-4.512 1.702.189 3.55-.4 4.07-2.145.156-.528.397-3.691.397-4.13s-.088-1.186-.575-1.406c-.42-.19-1.06-.395-2.741.79-1.755 1.24-3.64 3.752-4.334 5.099"/></g>
-    <defs><clipPath id="bluesky-clip"><path fill="#fff" d="M.1.85h15.3v15.3H.1z"/></clipPath></defs>
-  </symbol>
-  <symbol id="discord-icon" viewBox="0 0 20 19">
-    <path fill="#08060d" d="M16.224 3.768a14.5 14.5 0 0 0-3.67-1.153c-.158.286-.343.67-.47.976a13.5 13.5 0 0 0-4.067 0c-.128-.306-.317-.69-.476-.976A14.4 14.4 0 0 0 3.868 3.77C1.546 7.28.916 10.703 1.231 14.077a14.7 14.7 0 0 0 4.5 2.306q.545-.748.965-1.587a9.5 9.5 0 0 1-1.518-.74q.191-.14.372-.293c2.927 1.369 6.107 1.369 8.999 0q.183.152.372.294-.723.437-1.52.74.418.838.963 1.588a14.6 14.6 0 0 0 4.504-2.308c.37-3.911-.63-7.302-2.644-10.309m-9.13 8.234c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.894 0 1.614.82 1.599 1.82.001 1-.705 1.82-1.6 1.82m5.91 0c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.893 0 1.614.82 1.599 1.82 0 1-.706 1.82-1.6 1.82"/>
-  </symbol>
-  <symbol id="documentation-icon" viewBox="0 0 21 20">
-    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="m15.5 13.333 1.533 1.322c.645.555.967.833.967 1.178s-.322.623-.967 1.179L15.5 18.333m-3.333-5-1.534 1.322c-.644.555-.966.833-.966 1.178s.322.623.966 1.179l1.534 1.321"/>
-    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M17.167 10.836v-4.32c0-1.41 0-2.117-.224-2.68-.359-.906-1.118-1.621-2.08-1.96-.599-.21-1.349-.21-2.848-.21-2.623 0-3.935 0-4.983.369-1.684.591-3.013 1.842-3.641 3.428C3 6.449 3 7.684 3 10.154v2.122c0 2.558 0 3.838.706 4.726q.306.383.713.671c.76.536 1.79.64 3.581.66"/>
-    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M3 10a2.78 2.78 0 0 1 2.778-2.778c.555 0 1.209.097 1.748-.047.48-.129.854-.503.982-.982.145-.54.048-1.194.048-1.749a2.78 2.78 0 0 1 2.777-2.777"/>
-  </symbol>
-  <symbol id="github-icon" viewBox="0 0 19 19">
-    <path fill="#08060d" fill-rule="evenodd" d="M9.356 1.85C5.05 1.85 1.57 5.356 1.57 9.694a7.84 7.84 0 0 0 5.324 7.44c.387.079.528-.168.528-.376 0-.182-.013-.805-.013-1.454-2.165.467-2.616-.935-2.616-.935-.349-.91-.864-1.143-.864-1.143-.71-.48.051-.48.051-.48.787.051 1.2.805 1.2.805.695 1.194 1.817.857 2.268.649.064-.507.27-.857.49-1.052-1.728-.182-3.545-.857-3.545-3.87 0-.857.31-1.558.8-2.104-.078-.195-.349-1 .077-2.078 0 0 .657-.208 2.14.805a7.5 7.5 0 0 1 1.946-.26c.657 0 1.328.092 1.946.26 1.483-1.013 2.14-.805 2.14-.805.426 1.078.155 1.883.078 2.078.502.546.799 1.247.799 2.104 0 3.013-1.818 3.675-3.558 3.87.284.247.528.714.528 1.454 0 1.052-.012 1.896-.012 2.156 0 .208.142.455.528.377a7.84 7.84 0 0 0 5.324-7.441c.013-4.338-3.48-7.844-7.773-7.844" clip-rule="evenodd"/>
-  </symbol>
-  <symbol id="social-icon" viewBox="0 0 20 20">
-    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M12.5 6.667a4.167 4.167 0 1 0-8.334 0 4.167 4.167 0 0 0 8.334 0"/>
-    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M2.5 16.667a5.833 5.833 0 0 1 8.75-5.053m3.837.474.513 1.035c.07.144.257.282.414.309l.93.155c.596.1.736.536.307.965l-.723.73a.64.64 0 0 0-.152.531l.207.903c.164.715-.213.991-.84.618l-.872-.52a.63.63 0 0 0-.577 0l-.872.52c-.624.373-1.003.094-.84-.618l.207-.903a.64.64 0 0 0-.152-.532l-.723-.729c-.426-.43-.289-.864.306-.964l.93-.156a.64.64 0 0 0 .412-.31l.513-1.034c.28-.562.735-.562 1.012 0"/>
-  </symbol>
-  <symbol id="x-icon" viewBox="0 0 19 19">
-    <path fill="#08060d" fill-rule="evenodd" d="M1.893 1.98c.052.072 1.245 1.769 2.653 3.77l2.892 4.114c.183.261.333.48.333.486s-.068.089-.152.183l-.522.593-.765.867-3.597 4.087c-.375.426-.734.834-.798.905a1 1 0 0 0-.118.148c0 .01.236.017.664.017h.663l.729-.83c.4-.457.796-.906.879-.999a692 692 0 0 0 1.794-2.038c.034-.037.301-.34.594-.675l.551-.624.345-.392a7 7 0 0 1 .34-.374c.006 0 .93 1.306 2.052 2.903l2.084 2.965.045.063h2.275c1.87 0 2.273-.003 2.266-.021-.008-.02-1.098-1.572-3.894-5.547-2.013-2.862-2.28-3.246-2.273-3.266.008-.019.282-.332 2.085-2.38l2-2.274 1.567-1.782c.022-.028-.016-.03-.65-.03h-.674l-.3.342a871 871 0 0 1-1.782 2.025c-.067.075-.405.458-.75.852a100 100 0 0 1-.803.91c-.148.172-.299.344-.99 1.127-.304.343-.32.358-.345.327-.015-.019-.904-1.282-1.976-2.808L6.365 1.85H1.8zm1.782.91 8.078 11.294c.772 1.08 1.413 1.973 1.425 1.984.016.017.241.02 1.05.017l1.03-.004-2.694-3.766L7.796 5.75 5.722 2.852l-1.039-.004-1.039-.004z" clip-rule="evenodd"/>
-  </symbol>
-</svg>
-</file>
-
-<file path="README.md">
-# SKETCH Website
-
-A multi-page website for the college club **SKETCH**, built with React, Vite, Tailwind CSS, and Framer Motion.
-
-## 🚀 Features
-
-- **Scroll-Driven Hero**: Smooth image sequence animation on the landing page.
-- **Glassmorphism Design**: Modern, dark-themed UI with subtle glass effects.
-- **Aceternity UI Components**: Integration of advanced animations and interactive components.
-- **Responsive Layout**: Fully optimized for mobile and desktop devices.
-- **Animated Transitions**: Seamless page and component transitions using Framer Motion.
-
-## 🛠️ Tech Stack
-
-- **Framework**: React 19 + Vite
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Routing**: React Router DOM
-- **Icons**: Tabler Icons
-- **Components**: Aceternity UI
-
-## 📦 Getting Started
-
-### Installation
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-3. Build for production:
-   ```bash
-   npm run build
-   ```
-
-## 🌐 Deployment
-
-The project is configured for **Vercel** with zero-config. Simply push the repository to GitHub and connect it to Vercel.
-
-- **Root Directory**: `.` (Root)
-- **Build Command**: `npm run build`
-- **Output Directory**: `dist`
-
-## 📄 License
-
-This project is private to the SKETCH club.
-</file>
-
-<file path="src/App.jsx">
-import React, { useState, useEffect } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
-import { AnimatePresence, motion } from "framer-motion";
-
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import { LoaderOne } from "./components/ui/loader";
-
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Departments from "./pages/Departments";
-import Projects from "./pages/Projects";
-import Join from "./pages/Join";
-
-// Scrolls to top on every route change
-function ScrollToTop() {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-  return null;
-}
-
-function App() {
-  const location = useLocation();
-  const [loading, setLoading] = useState(true);
-
-  // Initial loader
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1500);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="fixed inset-0 bg-[#0e0e0e] flex items-center justify-center z-[9999]">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4 }}
-          className="flex flex-col items-center gap-6"
-        >
-          <h1 className="text-white text-3xl font-bold tracking-[0.4em]">
-            SKETCH
-          </h1>
-          <LoaderOne />
-        </motion.div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="dark min-h-screen bg-[#0e0e0e]">
-      <ScrollToTop />
-      <Navbar />
-
-      <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/departments" element={<Departments />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/join" element={<Join />} />
-        </Routes>
-      </AnimatePresence>
-
-      <Footer />
-    </div>
-  );
-}
-
-export default App;
-</file>
-
-<file path="src/assets/react.svg">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="35.93" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 228"><path fill="#00D8FF" d="M210.483 73.824a171.49 171.49 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621c6.238-30.281 2.16-54.676-11.769-62.708c-13.355-7.7-35.196.329-57.254 19.526a171.23 171.23 0 0 0-6.375 5.848a155.866 155.866 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233C50.33 10.957 46.379 33.89 51.995 62.588a170.974 170.974 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.309 83.498 0 98.307 0 113.668c0 15.865 18.582 31.778 46.812 41.427a145.52 145.52 0 0 0 6.921 2.165a167.467 167.467 0 0 0-2.01 9.138c-5.354 28.2-1.173 50.591 12.134 58.266c13.744 7.926 36.812-.22 59.273-19.855a145.567 145.567 0 0 0 5.342-4.923a168.064 168.064 0 0 0 6.92 6.314c21.758 18.722 43.246 26.282 56.54 18.586c13.731-7.949 18.194-32.003 12.4-61.268a145.016 145.016 0 0 0-1.535-6.842c1.62-.48 3.21-.974 4.76-1.488c29.348-9.723 48.443-25.443 48.443-41.52c0-15.417-17.868-30.326-45.517-39.844Zm-6.365 70.984c-1.4.463-2.836.91-4.3 1.345c-3.24-10.257-7.612-21.163-12.963-32.432c5.106-11 9.31-21.767 12.459-31.957c2.619.758 5.16 1.557 7.61 2.4c23.69 8.156 38.14 20.213 38.14 29.504c0 9.896-15.606 22.743-40.946 31.14Zm-10.514 20.834c2.562 12.94 2.927 24.64 1.23 33.787c-1.524 8.219-4.59 13.698-8.382 15.893c-8.067 4.67-25.32-1.4-43.927-17.412a156.726 156.726 0 0 1-6.437-5.87c7.214-7.889 14.423-17.06 21.459-27.246c12.376-1.098 24.068-2.894 34.671-5.345a134.17 134.17 0 0 1 1.386 6.193ZM87.276 214.515c-7.882 2.783-14.16 2.863-17.955.675c-8.075-4.657-11.432-22.636-6.853-46.752a156.923 156.923 0 0 1 1.869-8.499c10.486 2.32 22.093 3.988 34.498 4.994c7.084 9.967 14.501 19.128 21.976 27.15a134.668 134.668 0 0 1-4.877 4.492c-9.933 8.682-19.886 14.842-28.658 17.94ZM50.35 144.747c-12.483-4.267-22.792-9.812-29.858-15.863c-6.35-5.437-9.555-10.836-9.555-15.216c0-9.322 13.897-21.212 37.076-29.293c2.813-.98 5.757-1.905 8.812-2.773c3.204 10.42 7.406 21.315 12.477 32.332c-5.137 11.18-9.399 22.249-12.634 32.792a134.718 134.718 0 0 1-6.318-1.979Zm12.378-84.26c-4.811-24.587-1.616-43.134 6.425-47.789c8.564-4.958 27.502 2.111 47.463 19.835a144.318 144.318 0 0 1 3.841 3.545c-7.438 7.987-14.787 17.08-21.808 26.988c-12.04 1.116-23.565 2.908-34.161 5.309a160.342 160.342 0 0 1-1.76-7.887Zm110.427 27.268a347.8 347.8 0 0 0-7.785-12.803c8.168 1.033 15.994 2.404 23.343 4.08c-2.206 7.072-4.956 14.465-8.193 22.045a381.151 381.151 0 0 0-7.365-13.322Zm-45.032-43.861c5.044 5.465 10.096 11.566 15.065 18.186a322.04 322.04 0 0 0-30.257-.006c4.974-6.559 10.069-12.652 15.192-18.18ZM82.802 87.83a323.167 323.167 0 0 0-7.227 13.238c-3.184-7.553-5.909-14.98-8.134-22.152c7.304-1.634 15.093-2.97 23.209-3.984a321.524 321.524 0 0 0-7.848 12.897Zm8.081 65.352c-8.385-.936-16.291-2.203-23.593-3.793c2.26-7.3 5.045-14.885 8.298-22.6a321.187 321.187 0 0 0 7.257 13.246c2.594 4.48 5.28 8.868 8.038 13.147Zm37.542 31.03c-5.184-5.592-10.354-11.779-15.403-18.433c4.902.192 9.899.29 14.978.29c5.218 0 10.376-.117 15.453-.343c-4.985 6.774-10.018 12.97-15.028 18.486Zm52.198-57.817c3.422 7.8 6.306 15.345 8.596 22.52c-7.422 1.694-15.436 3.058-23.88 4.071a382.417 382.417 0 0 0 7.859-13.026a347.403 347.403 0 0 0 7.425-13.565Zm-16.898 8.101a358.557 358.557 0 0 1-12.281 19.815a329.4 329.4 0 0 1-23.444.823c-7.967 0-15.716-.248-23.178-.732a310.202 310.202 0 0 1-12.513-19.846h.001a307.41 307.41 0 0 1-10.923-20.627a310.278 310.278 0 0 1 10.89-20.637l-.001.001a307.318 307.318 0 0 1 12.413-19.761c7.613-.576 15.42-.876 23.31-.876H128c7.926 0 15.743.303 23.354.883a329.357 329.357 0 0 1 12.335 19.695a358.489 358.489 0 0 1 11.036 20.54a329.472 329.472 0 0 1-11 20.722Zm22.56-122.124c8.572 4.944 11.906 24.881 6.52 51.026c-.344 1.668-.73 3.367-1.15 5.09c-10.622-2.452-22.155-4.275-34.23-5.408c-7.034-10.017-14.323-19.124-21.64-27.008a160.789 160.789 0 0 1 5.888-5.4c18.9-16.447 36.564-22.941 44.612-18.3ZM128 90.808c12.625 0 22.86 10.235 22.86 22.86s-10.235 22.86-22.86 22.86s-22.86-10.235-22.86-22.86s10.235-22.86 22.86-22.86Z"></path></svg>
-</file>
-
-<file path="src/assets/vite.svg">
-<svg xmlns="http://www.w3.org/2000/svg" width="77" height="47" fill="none" aria-labelledby="vite-logo-title" viewBox="0 0 77 47"><title id="vite-logo-title">Vite</title><style>.parenthesis{fill:#000}@media (prefers-color-scheme:dark){.parenthesis{fill:#fff}}</style><path fill="#9135ff" d="M40.151 45.71c-.663.844-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.493c-.92 0-1.457-1.04-.92-1.788l7.479-10.471c1.07-1.498 0-3.578-1.842-3.578H15.443c-.92 0-1.456-1.04-.92-1.788l9.696-13.576c.213-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.472c-1.07 1.497 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.087.89 1.83L40.153 45.712z"/><mask id="a" width="48" height="47" x="14" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M40.047 45.71c-.663.843-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.389c-.92 0-1.457-1.04-.92-1.788l7.479-10.472c1.07-1.497 0-3.578-1.842-3.578H15.34c-.92 0-1.456-1.04-.92-1.788l9.696-13.575c.213-.297.556-.474.92-.474H53.93c.92 0 1.456 1.04.92 1.788L47.37 13.03c-1.07 1.498 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.088.89 1.831L40.049 45.712z"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#eee6ff" rx="5.508" ry="14.704" transform="rotate(269.814 20.96 11.29)scale(-1 1)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#eee6ff" rx="10.399" ry="29.851" transform="rotate(89.814 -16.902 -8.275)scale(1 -1)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#8900ff" rx="5.508" ry="30.487" transform="rotate(89.814 -19.197 -7.127)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.928 4.177)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.738 5.52)scale(1 -1)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#eee6ff" rx="14.072" ry="22.078" transform="rotate(93.35 31.245 55.578)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx="14.592" cy="9.743" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(39.51 14.592 9.743)"/></g><g filter="url(#k)"><ellipse cx="61.728" cy="-5.321" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 61.728 -5.32)"/></g><g filter="url(#l)"><ellipse cx="55.618" cy="7.104" fill="#00c2ff" rx="5.971" ry="9.665" transform="rotate(37.892 55.618 7.104)"/></g><g filter="url(#m)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#n)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#o)"><ellipse cx="49.857" cy="30.678" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 49.857 30.678)"/></g><g filter="url(#p)"><ellipse cx="52.623" cy="33.171" fill="#00c2ff" rx="5.971" ry="15.297" transform="rotate(37.892 52.623 33.17)"/></g></g><path d="M6.919 0c-9.198 13.166-9.252 33.575 0 46.789h6.215c-9.25-13.214-9.196-33.623 0-46.789zm62.424 0h-6.215c9.198 13.166 9.252 33.575 0 46.789h6.215c9.25-13.214 9.196-33.623 0-46.789" class="parenthesis"/><defs><filter id="b" width="60.045" height="41.654" x="-5.564" y="16.92" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-40.407" y="-6.762" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-35.435" y="2.801" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-30.84" y="20.8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-29.307" y="21.949" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="29.961" y="-17.13" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-13.43" y="-22.082" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="34.321" y="-37.644" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="38.847" y="-10.552" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="22.45" y="-1.645" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="32.919" y="11.36" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter></defs></svg>
-</file>
-
-<file path="src/components/PageTransition.jsx">
-import React from "react";
-import { motion } from "framer-motion";
-import { usePrefersReducedMotion } from "../hooks/use-reduced-motion";
-
-const pageVariants = {
-  initial: {
-    opacity: 0,
-    y: 20,
-  },
-  animate: {
-    opacity: 1,
-    y: 0,
-  },
-  exit: {
-    opacity: 0,
-    y: -20,
-  },
-};
-
-const reducedMotionVariants = {
-  initial: { opacity: 0 },
-  animate: { opacity: 1 },
-  exit: { opacity: 0 },
-};
-
-const pageTransition = {
-  duration: 0.4,
-  ease: "easeInOut",
-};
-
-const reducedMotionTransition = {
-  duration: 0.15,
-  ease: "easeOut",
-};
-
-export default function PageTransition({ children }) {
-  const prefersReducedMotion = usePrefersReducedMotion();
-
-  return (
-    <motion.div
-      variants={prefersReducedMotion ? reducedMotionVariants : pageVariants}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={
-        prefersReducedMotion ? reducedMotionTransition : pageTransition
-      }
-    >
-      {children}
-    </motion.div>
-  );
-}
-</file>
-
-<file path="src/components/ui/3d-card.tsx">
-"use client";
-import React, {
-  createContext,
-  useState,
-  useContext,
-  useRef,
-  useEffect,
-} from "react";
-import { cn } from "@/lib/utils";
-
-const MouseEnterContext = createContext(undefined);
-
-export const CardContainer = ({ children, className, containerClassName }) => {
-  const containerRef = useRef(null);
-  const [isMouseEntered, setIsMouseEntered] = useState(false);
-
-  const handleMouseMove = (e) => {
-    if (!containerRef.current) return;
-    const { left, top, width, height } =
-      containerRef.current.getBoundingClientRect();
-    const x = (e.clientX - left - width / 2) / 25;
-    const y = (e.clientY - top - height / 2) / 25;
-    containerRef.current.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
-  };
-
-  const handleMouseEnter = () => {
-    setIsMouseEntered(true);
-  };
-
-  const handleMouseLeave = () => {
-    if (!containerRef.current) return;
-    setIsMouseEntered(false);
-    containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
-  };
-
-  return (
-    <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
-      <div
-        className={cn("flex items-center justify-center", containerClassName)}
-        style={{ perspective: "1000px" }}
-      >
-        <div
-          ref={containerRef}
-          onMouseEnter={handleMouseEnter}
-          onMouseMove={handleMouseMove}
-          onMouseLeave={handleMouseLeave}
-          className={cn(
-            "flex items-center justify-center relative transition-all duration-200 ease-linear",
-            className
-          )}
-          style={{ transformStyle: "preserve-3d" }}
-        >
-          {children}
-        </div>
-      </div>
-    </MouseEnterContext.Provider>
-  );
-};
-
-export const CardBody = ({ children, className }) => {
-  return (
-    <div
-      className={cn(
-        "h-96 w-96 [transform-style:preserve-3d] [&>*]:[transform-style:preserve-3d]",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
-};
-
-export const CardItem = ({
-  as: Tag = "div",
-  children,
-  className,
-  translateX = 0,
-  translateY = 0,
-  translateZ = 0,
-  rotateX = 0,
-  rotateY = 0,
-  rotateZ = 0,
-  ...rest
-}) => {
-  const ref = useRef(null);
-  const [isMouseEntered] = useMouseEnter();
-
-  useEffect(() => {
-    handleAnimations();
-  }, [isMouseEntered]);
-
-  const handleAnimations = () => {
-    if (!ref.current) return;
-    if (isMouseEntered) {
-      ref.current.style.transform = `translateX(${translateX}px) translateY(${translateY}px) translateZ(${translateZ}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) rotateZ(${rotateZ}deg)`;
-    } else {
-      ref.current.style.transform =
-        "translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)";
-    }
-  };
-
-  return (
-    <Tag
-      ref={ref}
-      className={cn("w-fit transition duration-200 ease-linear", className)}
-      {...rest}
-    >
-      {children}
-    </Tag>
-  );
-};
-
-export const useMouseEnter = () => {
-  const context = useContext(MouseEnterContext);
-  if (context === undefined) {
-    throw new Error("useMouseEnter must be used within a MouseEnterContext");
-  }
-  return context;
-};
-</file>
-
-<file path="src/components/ui/background-beams.tsx">
-"use client";
-import React, { useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
-
-export const BackgroundBeams = ({ className }) => {
-  const svgRef = useRef(null);
-  const [paths, setPaths] = useState([]);
-
-  useEffect(() => {
-    const generatePaths = () => {
-      const newPaths = [];
-      for (let i = 0; i < 20; i++) {
-        const startX = Math.random() * 100;
-        const endX = startX + (Math.random() - 0.5) * 40;
-        const controlX1 = startX + (Math.random() - 0.5) * 20;
-        const controlX2 = endX + (Math.random() - 0.5) * 20;
-        newPaths.push({
-          d: `M${startX} 0 C ${controlX1} 33, ${controlX2} 66, ${endX} 100`,
-          delay: Math.random() * 2,
-          duration: 3 + Math.random() * 4,
-        });
-      }
-      return newPaths;
-    };
-    setPaths(generatePaths());
-  }, []);
-
-  return (
-    <div className={cn("absolute inset-0 overflow-hidden", className)}>
-      <svg
-        ref={svgRef}
-        className="absolute inset-0 w-full h-full"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-        fill="none"
-      >
-        {paths.map((path, index) => (
-          <motion.path
-            key={index}
-            d={path.d}
-            stroke="url(#beam-gradient)"
-            strokeWidth="0.15"
-            strokeOpacity="0.4"
-            initial={{ pathLength: 0, opacity: 0 }}
-            animate={{
-              pathLength: [0, 1],
-              opacity: [0, 0.5, 0],
-            }}
-            transition={{
-              duration: path.duration,
-              delay: path.delay,
-              repeat: Infinity,
-              repeatDelay: Math.random() * 3,
-              ease: "easeInOut",
-            }}
-          />
-        ))}
-        <defs>
-          <linearGradient id="beam-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="rgba(255,255,255,0)" />
-            <stop offset="50%" stopColor="rgba(255,255,255,0.8)" />
-            <stop offset="100%" stopColor="rgba(255,255,255,0)" />
-          </linearGradient>
-        </defs>
-      </svg>
-    </div>
-  );
-};
-</file>
-
-<file path="src/components/ui/card-hover-effect.tsx">
-"use client";
-import { cn } from "@/lib/utils";
-import { AnimatePresence, motion } from "framer-motion";
-import { useState } from "react";
-
-export const HoverEffect = ({ items, className }) => {
-  let [hoveredIndex, setHoveredIndex] = useState(null);
-
-  return (
-    <div
-      className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10",
-        className
-      )}
-    >
-      {items.map((item, idx) => (
-        <div
-          key={idx}
-          className="relative group block p-2 h-full w-full"
-          onMouseEnter={() => setHoveredIndex(idx)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
-          <AnimatePresence>
-            {hoveredIndex === idx && (
-              <motion.span
-                className="absolute inset-0 h-full w-full bg-white/[0.08] block rounded-3xl"
-                layoutId="hoverBackground"
-                initial={{ opacity: 0 }}
-                animate={{
-                  opacity: 1,
-                  transition: { duration: 0.15 },
-                }}
-                exit={{
-                  opacity: 0,
-                  transition: { duration: 0.15, delay: 0.2 },
-                }}
-              />
-            )}
-          </AnimatePresence>
-          <Card>
-            <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
-          </Card>
-        </div>
-      ))}
-    </div>
-  );
-};
-
-export const Card = ({ className, children }) => {
-  return (
-    <div
-      className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-white/[0.03] border border-white/[0.1] group-hover:border-white/[0.2] relative z-20 transition-colors duration-300",
-        className
-      )}
-    >
-      <div className="relative z-50">
-        <div className="p-4">{children}</div>
-      </div>
-    </div>
-  );
-};
-
-export const CardTitle = ({ className, children }) => {
-  return (
-    <h4 className={cn("text-white font-bold tracking-wide mt-4", className)}>
-      {children}
-    </h4>
-  );
-};
-
-export const CardDescription = ({ className, children }) => {
-  return (
-    <p
-      className={cn(
-        "mt-4 text-neutral-400 tracking-wide leading-relaxed text-sm",
-        className
-      )}
-    >
-      {children}
-    </p>
-  );
-};
-</file>
-
-<file path="src/components/ui/draggable-card.tsx">
-"use client";
-import React, { useRef, useState, useEffect } from "react";
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { cn } from "@/lib/utils";
-
-export function DraggableCardContainer({ children, className }) {
-  return (
-    <div className={cn("relative", className)}>
-      {children}
-    </div>
-  );
-}
-
-export function DraggableCardBody({ children, className }) {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [isDragging, setIsDragging] = useState(false);
-
-  const cardRef = useRef(null);
-  const dragStartPos = useRef({ x: 0, y: 0 });
-
-  const handleMouseDown = (e) => {
-    setIsDragging(true);
-    dragStartPos.current = {
-      x: e.clientX - position.x,
-      y: e.clientY - position.y,
-    };
-  };
-
-  const handleMouseMove = (e) => {
-    if (!isDragging) return;
-    setPosition({
-      x: e.clientX - dragStartPos.current.x,
-      y: e.clientY - dragStartPos.current.y,
-    });
-  };
-
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
-
-  useEffect(() => {
-    if (isDragging) {
-      window.addEventListener("mousemove", handleMouseMove);
-      window.addEventListener("mouseup", handleMouseUp);
-    }
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("mouseup", handleMouseUp);
-    };
-  }, [isDragging]);
-
-  return (
-    <motion.div
-      ref={cardRef}
-      className={cn(
-        "cursor-grab active:cursor-grabbing rounded-xl overflow-hidden shadow-xl border border-white/10",
-        className
-      )}
-      style={{
-        x: position.x,
-        y: position.y,
-      }}
-      onMouseDown={handleMouseDown}
-      whileHover={{ scale: 1.05 }}
-      transition={{ type: "spring", stiffness: 300, damping: 20 }}
-    >
-      {children}
-    </motion.div>
-  );
-}
-</file>
-
-<file path="src/components/ui/encrypted-text.tsx">
-"use client";
-import React, { useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
-
-const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%&";
-
-export function EncryptedText({
-  text,
-  className,
-  encryptedClassName,
-  revealedClassName,
-  revealDelayMs = 50,
-  animateOn = "view",
-}) {
-  const [displayText, setDisplayText] = useState(text);
-  const [isRevealed, setIsRevealed] = useState(false);
-  const [hasStarted, setHasStarted] = useState(false);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    setDisplayText(text);
-    setIsRevealed(false);
-    setHasStarted(animateOn !== "view");
-  }, [text, animateOn]);
-
-  useEffect(() => {
-    if (!hasStarted || isRevealed) return;
-
-    let step = 0;
-    const totalSteps = text.length;
-    if (totalSteps === 0) {
-      setIsRevealed(true);
-      return;
-    }
-
-    const intervalId = setInterval(() => {
-      step++;
-      let result = "";
-      for (let i = 0; i < text.length; i++) {
-        if (i < step) {
-          result += text[i];
-        } else {
-          result += CHARS[Math.floor(Math.random() * CHARS.length)];
-        }
-      }
-      setDisplayText(result);
-
-      if (step >= totalSteps) {
-        clearInterval(intervalId);
-        setDisplayText(text);
-        setIsRevealed(true);
-      }
-    }, revealDelayMs);
-
-    return () => {
-      clearInterval(intervalId);
-      setDisplayText(text);
-    };
-  }, [hasStarted, isRevealed, text, revealDelayMs]);
-
-  useEffect(() => {
-    if (hasStarted || isRevealed) return;
-
-    if (animateOn === "view") {
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) {
-            setHasStarted(true);
-            // Initialize with encrypted text
-            let initial = "";
-            for (let i = 0; i < text.length; i++) {
-              initial += CHARS[Math.floor(Math.random() * CHARS.length)];
-            }
-            setDisplayText(initial);
-          }
-        },
-        { threshold: 0.5 }
-      );
-
-      if (ref.current) observer.observe(ref.current);
-      return () => observer.disconnect();
-    } else {
-      setHasStarted(true);
-      let initial = "";
-      for (let i = 0; i < text.length; i++) {
-        initial += CHARS[Math.floor(Math.random() * CHARS.length)];
-      }
-      setDisplayText(initial);
-    }
-  }, [animateOn, hasStarted, isRevealed, text]);
-
-  return (
-    <motion.span
-      ref={ref}
-      className={cn(
-        "font-mono inline-block",
-        className,
-        isRevealed ? revealedClassName : encryptedClassName
-      )}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-    >
-      {displayText || text}
-    </motion.span>
-  );
-}
-</file>
-
-<file path="src/components/ui/evervault-card.tsx">
-"use client";
-import { useMotionValue, useMotionTemplate, motion } from "framer-motion";
-import React, { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
-
-export function EvervaultCard({ text, className }) {
-  let mouseX = useMotionValue(0);
-  let mouseY = useMotionValue(0);
-
-  const [randomString, setRandomString] = useState("");
-
-  useEffect(() => {
-    let str = generateRandomString(1500);
-    setRandomString(str);
-  }, []);
-
-  function onMouseMove({ currentTarget, clientX, clientY }) {
-    let { left, top } = currentTarget.getBoundingClientRect();
-    mouseX.set(clientX - left);
-    mouseY.set(clientY - top);
-
-    const str = generateRandomString(1500);
-    setRandomString(str);
-  }
-
-  return (
-    <div
-      className={cn(
-        "p-0.5 bg-transparent aspect-square flex items-center justify-center w-full h-full relative",
-        className
-      )}
-    >
-      <div
-        onMouseMove={onMouseMove}
-        className="group/card rounded-3xl w-full relative overflow-hidden bg-transparent flex items-center justify-center h-full"
-      >
-        <CardPattern mouseX={mouseX} mouseY={mouseY} randomString={randomString} />
-        <div className="relative z-10 flex items-center justify-center">
-          <div className="relative h-32 w-32 md:h-44 md:w-44 rounded-full flex items-center justify-center text-white font-bold text-2xl md:text-4xl">
-            <div className="absolute w-full h-full bg-white/[0.8] dark:bg-black/[0.8] blur-sm rounded-full" />
-            <span className="dark:text-white text-black z-20">{text}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function CardPattern({ mouseX, mouseY, randomString }) {
-  let maskImage = useMotionTemplate`radial-gradient(250px at ${mouseX}px ${mouseY}px, white, transparent)`;
-  let style = { maskImage, WebkitMaskImage: maskImage };
-
-  return (
-    <div className="pointer-events-none">
-      <div className="absolute inset-0 rounded-2xl [mask-image:linear-gradient(white,transparent)] group-hover/card:opacity-50"></div>
-      <motion.div
-        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-green-500 to-blue-700 opacity-0 group-hover/card:opacity-100 backdrop-blur-xl transition duration-500"
-        style={style}
-      />
-      <motion.div
-        className="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay group-hover/card:opacity-100"
-        style={style}
-      >
-        <p className="absolute inset-x-0 text-xs h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">
-          {randomString}
-        </p>
-      </motion.div>
-    </div>
-  );
-}
-
-export function Icon({ className, ...rest }) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      className={className}
-      {...rest}
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
-    </svg>
-  );
-}
-
-const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-const generateRandomString = (length) => {
-  let result = "";
-  for (let i = 0; i < length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * characters.length));
-  }
-  return result;
-};
-</file>
-
-<file path="src/components/ui/loader.tsx">
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
-
-export function LoaderOne({ className }) {
-  const bars = Array.from({ length: 5 });
-
-  return (
-    <div className={cn("flex items-center justify-center gap-1", className)}>
-      {bars.map((_, i) => (
-        <motion.div
-          key={i}
-          className="w-1.5 bg-white rounded-full"
-          initial={{ height: 12 }}
-          animate={{
-            height: [12, 28, 12],
-          }}
-          transition={{
-            duration: 0.8,
-            repeat: Infinity,
-            delay: i * 0.15,
-            ease: "easeInOut",
-          }}
-        />
-      ))}
-    </div>
-  );
-}
-</file>
-
 <file path="src/components/ui/spotlight.tsx">
 "use client";
 import React from "react";
@@ -2343,7 +1607,7 @@ export const Spotlight = ({ className, fill = "white" }) => {
 <file path="src/components/ui/text-flipping-board.tsx">
 "use client";
 import React, { useEffect, useRef, useState, useMemo } from "react";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 const FLAP_CHARS = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$()-+&=;:'\"%,./?°";
@@ -2609,6 +1873,8 @@ function wrapText(input, maxCols) {
 }
 
 export function TextFlippingBoard({ rows, text, className, duration = BASE_TOTAL_S }) {
+  const boardRef = useRef(null);
+  const isInView = useInView(boardRef, { once: true, margin: "120px" });
   const scale = duration / BASE_TOTAL_S;
   const colDelay = BASE_COL_DELAY * scale;
   const rowDelay = BASE_ROW_DELAY * scale;
@@ -2651,6 +1917,7 @@ export function TextFlippingBoard({ rows, text, className, duration = BASE_TOTAL
 
   return (
     <div
+      ref={boardRef}
       className={cn(
         "relative mx-auto w-full max-w-3xl rounded-xl bg-neutral-900 p-2 shadow-[0_20px_70px_-15px_rgba(0,0,0,0.6)] md:rounded-2xl md:p-4",
         className
@@ -2664,7 +1931,7 @@ export function TextFlippingBoard({ rows, text, className, duration = BASE_TOTAL
           row.map((cell, c) => (
             <FlapCell
               key={`${r}-${c}`}
-              target={cell.value}
+              target={isInView ? cell.value : " "}
               delay={c * colDelay + r * rowDelay}
               stepMs={stepMs}
               flipDuration={flipDur}
@@ -2732,6 +1999,99 @@ export const Timeline = ({ data }) => {
 };
 </file>
 
+<file path="src/components/ui/typewriter-text.tsx">
+"use client";
+
+import * as React from "react"
+import { useEffect, useState, useRef } from "react";
+import { useInView } from "framer-motion";
+ 
+export interface TypewriterProps {
+  text: string | string[];
+  speed?: number;
+  cursor?: string;
+  loop?: boolean;
+  deleteSpeed?: number;
+  delay?: number;
+  className?: string;
+}
+ 
+export function Typewriter({
+  text,
+  speed = 100,
+  cursor = "|",
+  loop = false,
+  deleteSpeed = 50,
+  delay = 1500,
+  className,
+}: TypewriterProps) {
+  const [displayText, setDisplayText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [textArrayIndex, setTextArrayIndex] = useState(0);
+  const [hasStarted, setHasStarted] = useState(false);
+ 
+  const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { once: true, margin: "-100px" });
+
+  useEffect(() => {
+    if (isInView && !hasStarted) {
+      setHasStarted(true);
+    }
+  }, [isInView, hasStarted]);
+
+  // Validate and process input text
+  const textArray = Array.isArray(text) ? text : [text];
+  const currentText = textArray[textArrayIndex] || "";
+ 
+  useEffect(() => {
+    if (!currentText || !hasStarted) return;
+ 
+    const timeout = setTimeout(
+      () => {
+        if (!isDeleting) {
+          if (currentIndex < currentText.length) {
+            setDisplayText((prev) => prev + currentText[currentIndex]);
+            setCurrentIndex((prev) => prev + 1);
+          } else if (loop) {
+            setTimeout(() => setIsDeleting(true), delay);
+          }
+        } else {
+          if (displayText.length > 0) {
+            setDisplayText((prev) => prev.slice(0, -1));
+          } else {
+            setIsDeleting(false);
+            setCurrentIndex(0);
+            setTextArrayIndex((prev) => (prev + 1) % textArray.length);
+          }
+        }
+      },
+      isDeleting ? deleteSpeed : speed,
+    );
+ 
+    return () => clearTimeout(timeout);
+  }, [
+    currentIndex,
+    isDeleting,
+    currentText,
+    loop,
+    speed,
+    deleteSpeed,
+    delay,
+    displayText,
+    text,
+    hasStarted,
+  ]);
+ 
+  return (
+    <span ref={containerRef} className={className}>
+      {displayText}
+      <span className="animate-pulse">{cursor}</span>
+    </span>
+  );
+}
+</file>
+
 <file path="src/hooks/use-media-query.js">
 import { useSyncExternalStore } from "react";
 
@@ -2750,119 +2110,59 @@ export function useMediaQuery(query) {
 }
 </file>
 
-<file path="src/index.css">
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+<file path="src/hooks/use-reduced-motion.js">
+import { useMediaQuery } from "./use-media-query";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --bg-primary: #0e0e0e;
-  --text-primary: #ffffff;
-  --text-secondary: #a0a0a0;
-  --accent: #e8e8e0;
-  --glass-bg: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.08);
-  --divider: rgba(255, 255, 255, 0.1);
+export function usePrefersReducedMotion() {
+  return useMediaQuery("(prefers-reduced-motion: reduce)");
 }
+</file>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<file path="src/hooks/use-scroll-hover.js">
+import { useState, useEffect } from 'react';
+import { useMediaQuery } from './use-media-query';
 
-html {
-  scroll-behavior: smooth;
-}
+/**
+ * Hook to detect when an element is in the middle of the viewport on mobile.
+ * @param {React.RefObject} ref - Reference to the element to observe.
+ * @param {boolean} isMobileOnly - Whether to only activate on mobile screens.
+ * @returns {boolean} - Whether the element is currently "auto-hovered".
+ */
+export function useScrollHover(ref, isMobileOnly = true) {
+  const [isHovered, setIsHovered] = useState(false);
+  const isMobile = useMediaQuery("(max-width: 768px)");
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
+  useEffect(() => {
+    // If not mobile and mobileOnly is true, don't do anything
+    if (isMobileOnly && !isMobile) {
+      setIsHovered(false);
+      return;
+    }
 
-  .animate-spotlight {
-    animation: none;
-    opacity: 1;
-    transform: translate(-50%, -40%) scale(1);
-  }
-}
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsHovered(entry.isIntersecting);
+      },
+      {
+        // rootMargin defines the "middle" area. 
+        // -45% from top and -45% from bottom leaves a 10% strip in the middle.
+        rootMargin: "-45% 0px -45% 0px",
+        threshold: 0,
+      }
+    );
 
-body {
-  font-family: 'Inter', system-ui, sans-serif;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-}
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 6px;
-}
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, [ref, isMobile, isMobileOnly]);
 
-::-webkit-scrollbar-track {
-  background: #0e0e0e;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.25);
-}
-
-/* Selection */
-::selection {
-  background: rgba(232, 232, 224, 0.3);
-  color: #ffffff;
-}
-
-/* Glass morphism utility */
-.glass {
-  background: var(--glass-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--glass-border);
-}
-
-/* Divider utility */
-.divider {
-  height: 1px;
-  background: var(--divider);
-  width: 100%;
-}
-
-/* Hide video controls */
-video::-webkit-media-controls {
-  display: none !important;
-}
-
-/* Spotlight animation */
-@keyframes spotlight {
-  0% {
-    opacity: 0;
-    transform: translate(-72%, -62%) scale(0.5);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(-50%, -40%) scale(1);
-  }
-}
-
-.animate-spotlight {
-  animation: spotlight 2s ease 0.75s 1 forwards;
-  opacity: 0;
-}
-
-/* Select dropdown fix for dark mode */
-select option {
-  background-color: #1a1a1a;
-  color: #ffffff;
+  return isHovered;
 }
 </file>
 
@@ -2937,47 +2237,163 @@ export default defineConfig({
 });
 </file>
 
-<file path=".gitignore">
-# Dependencies
-node_modules
-.pnp
-.pnp.js
+<file path="package.json">
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@radix-ui/react-dialog": "^1.1.16",
+    "@radix-ui/react-label": "^2.1.9",
+    "@radix-ui/react-slot": "^1.2.5",
+    "@tabler/icons-react": "^3.41.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.18.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.1",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^3.4.19",
+    "vite": "^8.0.4"
+  }
+}
+</file>
 
-# Testing
-coverage
+<file path="src/App.jsx">
+import React, { useState, useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion";
 
-# Production
-dist
-dist-ssr
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import HomeBackground from "./components/HomeBackground";
+import { LoaderOne } from "./components/ui/loader";
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Departments from "./pages/Departments";
+import Projects from "./pages/Projects";
+import Join from "./pages/Join";
 
-# Misc
-.DS_Store
-*.local
+const HERO_FRAME_COUNT = 240;
+const getHeroFrameUrl = (index) =>
+  `/hero-sequence/ezgif-frame-${index.toString().padStart(3, "0")}.jpg`;
 
-# Editor
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+function preloadHeroSequence() {
+  if (
+    typeof window === "undefined" ||
+    window.matchMedia("(max-width: 767px)").matches ||
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  ) {
+    return Promise.resolve();
+  }
 
-# Project Specific
-TEMPLATES/
-.gemini/
-COMPONENTS.MD
-PLAN.MD
+  let settled = 0;
+  return new Promise((resolve) => {
+    for (let i = 1; i <= HERO_FRAME_COUNT; i += 1) {
+      const img = new Image();
+      img.onload = img.onerror = () => {
+        settled += 1;
+        if (settled === HERO_FRAME_COUNT) resolve();
+      };
+      img.src = getHeroFrameUrl(i);
+    }
+  });
+}
+
+// Scrolls to top on every route change
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+function App() {
+  const location = useLocation();
+  const [loading, setLoading] = useState(true);
+
+  // Initial loader
+  useEffect(() => {
+    let cancelled = false;
+    const minimumLoader = new Promise((resolve) => setTimeout(resolve, 1500));
+
+    Promise.all([minimumLoader, preloadHeroSequence()]).then(() => {
+      if (!cancelled) setLoading(false);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="fixed inset-0 bg-[#0e0e0e] flex items-center justify-center z-[9999]">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.4 }}
+          className="flex flex-col items-center gap-6"
+        >
+          <h1 className="text-white text-3xl font-bold tracking-[0.4em]">
+            SKETCH
+          </h1>
+          <LoaderOne />
+        </motion.div>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      {/* Background layer — MUST be outside the main content wrapper */}
+      <HomeBackground />
+
+      <div className="dark min-h-screen relative z-10">
+        <ScrollToTop />
+        <Navbar />
+
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/departments" element={<Departments />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/join" element={<Join />} />
+          </Routes>
+        </AnimatePresence>
+
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+export default App;
 </file>
 
 <file path="src/components/Footer.jsx">
@@ -3049,6 +2465,651 @@ export default function Footer() {
     </footer>
   );
 }
+</file>
+
+<file path="src/components/PageTransition.jsx">
+import React from "react";
+import { motion } from "framer-motion";
+import { usePrefersReducedMotion } from "../hooks/use-reduced-motion";
+
+const pageVariants = {
+  initial: {
+    opacity: 0,
+    y: 20,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+  },
+  exit: {
+    opacity: 0,
+    y: -20,
+  },
+};
+
+const reducedMotionVariants = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1 },
+  exit: { opacity: 0 },
+};
+
+const pageTransition = {
+  duration: 0.4,
+  ease: "easeInOut",
+};
+
+const reducedMotionTransition = {
+  duration: 0.15,
+  ease: "easeOut",
+};
+
+export default function PageTransition({ children }) {
+  const prefersReducedMotion = usePrefersReducedMotion();
+
+  return (
+    <motion.div
+      variants={prefersReducedMotion ? reducedMotionVariants : pageVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={
+        prefersReducedMotion ? reducedMotionTransition : pageTransition
+      }
+    >
+      {children}
+    </motion.div>
+  );
+}
+</file>
+
+<file path="src/components/ui/3d-card.tsx">
+"use client";
+import React, {
+  createContext,
+  useState,
+  useContext,
+  useRef,
+  useEffect,
+} from "react";
+import { cn } from "@/lib/utils";
+
+const MouseEnterContext = createContext(undefined);
+
+export const CardContainer = ({
+  children,
+  className,
+  containerClassName,
+  isHovered: forcedHover = false,
+}) => {
+  const containerRef = useRef(null);
+  const [isMouseEntered, setIsMouseEntered] = useState(false);
+
+  useEffect(() => {
+    setIsMouseEntered(forcedHover);
+  }, [forcedHover]);
+
+  const handleMouseMove = (e) => {
+    if (!containerRef.current) return;
+    const { left, top, width, height } =
+      containerRef.current.getBoundingClientRect();
+    const x = (e.clientX - left - width / 2) / 25;
+    const y = (e.clientY - top - height / 2) / 25;
+    containerRef.current.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
+  };
+
+  const handleMouseEnter = () => {
+    setIsMouseEntered(true);
+  };
+
+  const handleMouseLeave = () => {
+    if (!containerRef.current) return;
+    setIsMouseEntered(false);
+    containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
+  };
+
+  return (
+    <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
+      <div
+        className={cn("flex items-center justify-center", containerClassName)}
+        style={{ perspective: "1000px" }}
+      >
+        <div
+          ref={containerRef}
+          onMouseEnter={handleMouseEnter}
+          onMouseMove={handleMouseMove}
+          onMouseLeave={handleMouseLeave}
+          className={cn(
+            "flex items-center justify-center relative transition-all duration-200 ease-linear",
+            className
+          )}
+          style={{ transformStyle: "preserve-3d" }}
+        >
+          {children}
+        </div>
+      </div>
+    </MouseEnterContext.Provider>
+  );
+};
+
+export const CardBody = ({ children, className }) => {
+  return (
+    <div
+      className={cn(
+        "h-96 w-96 [transform-style:preserve-3d] [&>*]:[transform-style:preserve-3d]",
+        className
+      )}
+    >
+      {children}
+    </div>
+  );
+};
+
+export const CardItem = ({
+  as: Tag = "div",
+  children,
+  className,
+  translateX = 0,
+  translateY = 0,
+  translateZ = 0,
+  rotateX = 0,
+  rotateY = 0,
+  rotateZ = 0,
+  ...rest
+}) => {
+  const ref = useRef(null);
+  const [isMouseEntered] = useMouseEnter();
+
+  useEffect(() => {
+    handleAnimations();
+  }, [isMouseEntered]);
+
+  const handleAnimations = () => {
+    if (!ref.current) return;
+    if (isMouseEntered) {
+      ref.current.style.transform = `translateX(${translateX}px) translateY(${translateY}px) translateZ(${translateZ}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) rotateZ(${rotateZ}deg)`;
+    } else {
+      ref.current.style.transform =
+        "translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)";
+    }
+  };
+
+  return (
+    <Tag
+      ref={ref}
+      className={cn("w-fit transition duration-200 ease-linear", className)}
+      {...rest}
+    >
+      {children}
+    </Tag>
+  );
+};
+
+export const useMouseEnter = () => {
+  const context = useContext(MouseEnterContext);
+  if (context === undefined) {
+    throw new Error("useMouseEnter must be used within a MouseEnterContext");
+  }
+  return context;
+};
+</file>
+
+<file path="src/components/ui/encrypted-text.tsx">
+"use client";
+import React, { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
+
+const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%&";
+
+export function EncryptedText({
+  text,
+  className,
+  encryptedClassName,
+  revealedClassName,
+  revealDelayMs = 50,
+  animateOn = "view",
+}) {
+  const [displayText, setDisplayText] = useState(text);
+  const [isRevealed, setIsRevealed] = useState(false);
+  const [hasStarted, setHasStarted] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    setDisplayText(text);
+    setIsRevealed(false);
+    setHasStarted(animateOn !== "view");
+  }, [text, animateOn]);
+
+  useEffect(() => {
+    if (!hasStarted || isRevealed) return;
+
+    let step = 0;
+    const totalSteps = text.length;
+    if (totalSteps === 0) {
+      setIsRevealed(true);
+      return;
+    }
+
+    const intervalId = setInterval(() => {
+      step++;
+      let result = "";
+      for (let i = 0; i < text.length; i++) {
+        if (i < step) {
+          result += text[i];
+        } else {
+          result += CHARS[Math.floor(Math.random() * CHARS.length)];
+        }
+      }
+      setDisplayText(result);
+
+      if (step >= totalSteps) {
+        clearInterval(intervalId);
+        setDisplayText(text);
+        setIsRevealed(true);
+      }
+    }, revealDelayMs);
+
+    return () => {
+      clearInterval(intervalId);
+      setDisplayText(text);
+    };
+  }, [hasStarted, isRevealed, text, revealDelayMs]);
+
+  useEffect(() => {
+    if (hasStarted || isRevealed) return;
+
+    if (animateOn === "view") {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setHasStarted(true);
+            // Initialize with encrypted text
+            let initial = "";
+            for (let i = 0; i < text.length; i++) {
+              initial += CHARS[Math.floor(Math.random() * CHARS.length)];
+            }
+            setDisplayText(initial);
+          }
+        },
+        { threshold: 0.5 }
+      );
+
+      if (ref.current) observer.observe(ref.current);
+      return () => observer.disconnect();
+    } else {
+      setHasStarted(true);
+      let initial = "";
+      for (let i = 0; i < text.length; i++) {
+        initial += CHARS[Math.floor(Math.random() * CHARS.length)];
+      }
+      setDisplayText(initial);
+    }
+  }, [animateOn, hasStarted, isRevealed, text]);
+
+  return (
+    <motion.span
+      ref={ref}
+      className={cn(
+        "font-mono inline-block",
+        className,
+        isRevealed ? revealedClassName : encryptedClassName
+      )}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      {displayText || text}
+    </motion.span>
+  );
+}
+</file>
+
+<file path="src/components/ui/evervault-card.tsx">
+"use client";
+import { useMotionValue, useMotionTemplate, motion } from "framer-motion";
+import React, { useState, useEffect } from "react";
+import { cn } from "@/lib/utils";
+
+export function EvervaultCard({ text, className, forceHover }) {
+  let mouseX = useMotionValue(0);
+  let mouseY = useMotionValue(0);
+
+  const [randomString, setRandomString] = useState("");
+
+  useEffect(() => {
+    let str = generateRandomString(1500);
+    setRandomString(str);
+  }, []);
+
+  function onMouseMove({ currentTarget, clientX, clientY }) {
+    let { left, top } = currentTarget.getBoundingClientRect();
+    mouseX.set(clientX - left);
+    mouseY.set(clientY - top);
+
+    const str = generateRandomString(1500);
+    setRandomString(str);
+  }
+
+  return (
+    <div
+      className={cn(
+        "p-0.5 bg-transparent aspect-square flex items-center justify-center w-full h-full relative",
+        className
+      )}
+    >
+      <div
+        onMouseMove={onMouseMove}
+        className="group/card rounded-3xl w-full relative overflow-hidden bg-transparent flex items-center justify-center h-full"
+      >
+        <CardPattern mouseX={mouseX} mouseY={mouseY} randomString={randomString} forceHover={forceHover} />
+        <div className="relative z-10 flex items-center justify-center">
+          <div className="relative h-32 w-32 md:h-44 md:w-44 rounded-full flex items-center justify-center text-white font-bold text-2xl md:text-4xl">
+            <div className="absolute w-full h-full bg-white/[0.8] dark:bg-black/[0.8] blur-sm rounded-full" />
+            <span className="dark:text-white text-black z-20">{text}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CardPattern({ mouseX, mouseY, randomString, forceHover }) {
+  let maskImage = useMotionTemplate`radial-gradient(250px at ${mouseX}px ${mouseY}px, white, transparent)`;
+  let style = { maskImage, WebkitMaskImage: maskImage };
+
+  return (
+    <div className="pointer-events-none">
+      <div className={cn(
+        "absolute inset-0 rounded-2xl [mask-image:linear-gradient(white,transparent)] group-hover/card:opacity-50",
+        forceHover && "opacity-50"
+      )}></div>
+      <motion.div
+        className={cn(
+          "absolute inset-0 rounded-2xl bg-gradient-to-r from-green-500 to-blue-700 opacity-0 group-hover/card:opacity-100 backdrop-blur-xl transition duration-500",
+          forceHover && "opacity-100"
+        )}
+        style={style}
+      />
+      <motion.div
+        className={cn(
+          "absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay group-hover/card:opacity-100",
+          forceHover && "opacity-100"
+        )}
+        style={style}
+      >
+        <p className="absolute inset-x-0 text-xs h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">
+          {randomString}
+        </p>
+      </motion.div>
+    </div>
+  );
+}
+
+export function Icon({ className, ...rest }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="currentColor"
+      className={className}
+      {...rest}
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
+    </svg>
+  );
+}
+
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+const generateRandomString = (length) => {
+  let result = "";
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return result;
+};
+</file>
+
+<file path="src/components/ui/floating-navbar.tsx">
+"use client";
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import {
+  motion,
+  AnimatePresence,
+  useMotionValue,
+  useSpring,
+} from "framer-motion";
+import { cn } from "@/lib/utils";
+import { Link, useLocation } from "react-router-dom";
+
+export const FloatingNav = ({ navItems, className }) => {
+  const [visible, setVisible] = useState(true);
+  const [atTop, setAtTop] = useState(true);
+  const lastScrollY = useRef(0);
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      setAtTop(currentScrollY < 50);
+      
+      if (currentScrollY < lastScrollY.current || currentScrollY < 50) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <AnimatePresence mode="wait">
+      <motion.div
+        initial={{ opacity: 1, y: -100 }}
+        animate={{ y: visible ? 0 : -100, opacity: visible ? 1 : 0 }}
+        transition={{ duration: 0.2 }}
+        className={cn(
+          "fixed z-[5000] flex w-[calc(100%-1.5rem)] max-w-none items-center justify-center gap-3 rounded-2xl border border-white/[0.15] bg-black/85 px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] backdrop-blur-md left-3 right-3 bottom-3 md:bottom-auto md:top-6 md:left-1/2 md:right-auto md:w-auto md:max-w-fit md:-translate-x-1/2 md:rounded-full md:px-8",
+          className
+        )}
+      >
+        {navItems.map((navItem, idx) => (
+          <Link
+            key={`link-${idx}`}
+            to={navItem.link}
+            className={cn(
+              "relative flex items-center gap-2 text-neutral-400 transition-colors duration-200 min-w-0 touch-manipulation",
+              location.pathname === navItem.link && "text-white"
+            )}
+          >
+            <span className="block md:hidden">{navItem.icon}</span>
+            <span className="hidden md:block text-sm hover:text-white">
+              {navItem.name}
+            </span>
+          </Link>
+        ))}
+      </motion.div>
+    </AnimatePresence>
+  );
+};
+</file>
+
+<file path="src/index.css">
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0e0e0e;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent: #e8e8e0;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --divider: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-spotlight {
+    animation: none;
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #0e0e0e;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Selection */
+::selection {
+  background: rgba(232, 232, 224, 0.3);
+  color: #ffffff;
+}
+
+/* Glass morphism utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+}
+
+/* Divider utility */
+.divider {
+  height: 1px;
+  background: var(--divider);
+  width: 100%;
+}
+
+/* Hide video controls */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+/* Spotlight animation */
+@keyframes spotlight {
+  0% {
+    opacity: 0;
+    transform: translate(-72%, -62%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
+
+.animate-spotlight {
+  animation: spotlight 2s ease 0.75s 1 forwards;
+  opacity: 0;
+}
+
+/* Select dropdown fix for dark mode */
+select option {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+</file>
+
+<file path=".gitignore">
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+dist
+dist-ssr
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store
+Thumbs.db
+*.local
+repomix-output.xml
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.cursor/
+
+# Project Specific
+TEMPLATES/
+.gemini/
+COMPONENTS.MD
+PLAN.MD
 </file>
 
 <file path="src/components/Navbar.jsx">
@@ -3135,73 +3196,6 @@ export default function Navbar() {
     </>
   );
 }
-</file>
-
-<file path="src/components/ui/floating-navbar.tsx">
-"use client";
-import React, { useState, useEffect, useRef, useCallback } from "react";
-import {
-  motion,
-  AnimatePresence,
-  useMotionValue,
-  useSpring,
-} from "framer-motion";
-import { cn } from "@/lib/utils";
-import { Link, useLocation } from "react-router-dom";
-
-export const FloatingNav = ({ navItems, className }) => {
-  const [visible, setVisible] = useState(true);
-  const [atTop, setAtTop] = useState(true);
-  const lastScrollY = useRef(0);
-  const location = useLocation();
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      setAtTop(currentScrollY < 50);
-      
-      if (currentScrollY < lastScrollY.current || currentScrollY < 50) {
-        setVisible(true);
-      } else {
-        setVisible(false);
-      }
-      lastScrollY.current = currentScrollY;
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  return (
-    <AnimatePresence mode="wait">
-      <motion.div
-        initial={{ opacity: 1, y: -100 }}
-        animate={{ y: visible ? 0 : -100, opacity: visible ? 1 : 0 }}
-        transition={{ duration: 0.2 }}
-        className={cn(
-          "fixed z-[5000] flex w-[calc(100%-1.5rem)] max-w-none items-center justify-center gap-3 rounded-2xl border border-white/[0.15] bg-black/85 px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] backdrop-blur-md left-3 right-3 bottom-3 md:bottom-auto md:top-6 md:left-1/2 md:right-auto md:w-auto md:max-w-fit md:-translate-x-1/2 md:rounded-full md:px-8",
-          className
-        )}
-      >
-        {navItems.map((navItem, idx) => (
-          <Link
-            key={`link-${idx}`}
-            to={navItem.link}
-            className={cn(
-              "relative flex items-center gap-2 text-neutral-400 transition-colors duration-200 min-w-0 touch-manipulation",
-              location.pathname === navItem.link && "text-white"
-            )}
-          >
-            <span className="block md:hidden">{navItem.icon}</span>
-            <span className="hidden md:block text-sm hover:text-white">
-              {navItem.name}
-            </span>
-          </Link>
-        ))}
-      </motion.div>
-    </AnimatePresence>
-  );
-};
 </file>
 
 <file path="src/components/ui/typewriter-effect.tsx">
@@ -3373,7 +3367,7 @@ export default function About() {
 
   return (
     <PageTransition>
-      <div className="min-h-screen bg-[#0e0e0e] pt-24 md:pt-32 pb-16 md:pb-20">
+      <div className="min-h-screen pt-24 md:pt-32 pb-16 md:pb-20">
         <motion.div {...fadeInUp} className="max-w-4xl mx-auto px-4 sm:px-6 mb-12 md:mb-16">
           <h1 className="mb-6 text-3xl font-bold sm:text-4xl md:text-6xl">
             <EncryptedText
@@ -3470,11 +3464,13 @@ export default function About() {
 </file>
 
 <file path="src/pages/Departments.jsx">
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import PageTransition from "../components/PageTransition";
 import { EncryptedText } from "../components/ui/encrypted-text";
 import { EvervaultCard, Icon } from "../components/ui/evervault-card";
+import { useScrollHover } from "../hooks/use-scroll-hover";
+import { cn } from "../lib/utils";
 
 const departments = [
   {
@@ -3518,10 +3514,48 @@ const cardVariants = {
   },
 };
 
+function DepartmentCard({ dept }) {
+  const cardRef = useRef(null);
+  const isAutoHovered = useScrollHover(cardRef);
+
+  return (
+    <motion.div
+      ref={cardRef}
+      variants={cardVariants}
+      className={cn(
+        "border border-white/[0.2] flex flex-col items-start p-3 sm:p-4 relative min-h-[24rem] sm:min-h-[28rem] md:h-[30rem] rounded-xl group transition-colors duration-300",
+        isAutoHovered ? "border-white/[0.35]" : "hover:border-white/[0.35]"
+      )}
+    >
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -left-3 text-white" />
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -left-3 text-white" />
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -right-3 text-white" />
+      <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -right-3 text-white" />
+
+      <EvervaultCard text={dept.name} forceHover={isAutoHovered} />
+
+      <h2 className="text-white mt-4 text-sm sm:text-base font-light">
+        {dept.description}
+      </h2>
+
+      <div className="flex flex-wrap gap-2 mt-4">
+        {dept.skills.map((skill) => (
+          <span
+            key={skill}
+            className="text-xs border border-white/20 text-neutral-400 rounded-full px-3 py-1"
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
+    </motion.div>
+  );
+}
+
 export default function Departments() {
   return (
     <PageTransition>
-      <div className="min-h-screen bg-[#0e0e0e] pt-24 md:pt-32 pb-16 md:pb-20">
+      <div className="min-h-screen pt-24 md:pt-32 pb-16 md:pb-20">
         {/* SECTION 1 — Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -3549,231 +3583,9 @@ export default function Departments() {
           className="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8"
         >
           {departments.map((dept) => (
-            <motion.div
-              key={dept.name}
-              variants={cardVariants}
-              className="border border-white/[0.2] flex flex-col items-start p-3 sm:p-4 relative min-h-[24rem] sm:min-h-[28rem] md:h-[30rem] rounded-xl group hover:border-white/[0.35] transition-colors duration-300"
-            >
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -left-3 text-white" />
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -left-3 text-white" />
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -top-3 -right-3 text-white" />
-              <Icon className="absolute h-5 w-5 sm:h-6 sm:w-6 -bottom-3 -right-3 text-white" />
-
-              <EvervaultCard text={dept.name} />
-
-              <h2 className="text-white mt-4 text-sm sm:text-base font-light">
-                {dept.description}
-              </h2>
-
-              <div className="flex flex-wrap gap-2 mt-4">
-                {dept.skills.map((skill) => (
-                  <span
-                    key={skill}
-                    className="text-xs border border-white/20 text-neutral-400 rounded-full px-3 py-1"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </motion.div>
+            <DepartmentCard key={dept.name} dept={dept} />
           ))}
         </motion.div>
-      </div>
-    </PageTransition>
-  );
-}
-</file>
-
-<file path="src/pages/Home.jsx">
-import React, { useCallback, useEffect, useRef, useState } from "react";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import { Link } from "react-router-dom";
-import PageTransition from "../components/PageTransition";
-import HomeBackground from "../components/HomeBackground";
-import SketchLine from "../components/SketchLine";
-import { Spotlight } from "../components/ui/spotlight";
-import { Typewriter } from "../components/ui/typewriter-text";
-import { TextFlippingBoard } from "../components/ui/text-flipping-board";
-import { useMediaQuery } from "../hooks/use-media-query";
-import { usePrefersReducedMotion } from "../hooks/use-reduced-motion";
-
-const MESSAGES = [
-  "SKETCH IS A PLATFORM",
-  "IDEAS BECOME SYSTEMS",
-  "BUILD. SHIP. REPEAT.",
-  "THIS IS NOT A CLUB.",
-  "WHERE IDEAS MEET EXECUTION",
-];
-
-const FRAME_COUNT = 172;
-const getFrameUrl = (index) =>
-  `/hero-sequence/ezgif-frame-${index.toString().padStart(3, "0")}.jpg`;
-
-export default function Home() {
-  const containerRef = useRef(null);
-  const canvasRef = useRef(null);
-  const [images, setImages] = useState([]);
-  const [msgIdx, setMsgIdx] = useState(0);
-  const isMobile = useMediaQuery("(max-width: 767px)");
-  const prefersReducedMotion = usePrefersReducedMotion();
-  const useSequence = !isMobile && !prefersReducedMotion;
-
-  // 1. Preload Images (Desktop Only)
-  useEffect(() => {
-    if (!useSequence) return;
-    const loadedImages = [];
-    let loadedCount = 0;
-    for (let i = 1; i <= FRAME_COUNT; i += 1) {
-      const img = new Image();
-      img.src = getFrameUrl(i);
-      img.onload = () => {
-        loadedCount += 1;
-        if (loadedCount === FRAME_COUNT) setImages(loadedImages);
-      };
-      loadedImages.push(img);
-    }
-  }, [useSequence]);
-
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end end"],
-  });
-
-  const smoothProgress = useSpring(scrollYProgress, {
-    stiffness: 400,
-    damping: 40,
-    restDelta: 0.0001,
-  });
-
-  // Mapped to start fading in earlier on desktop
-  const ctaOpacity = useTransform(scrollYProgress, [0.3, 0.5, 0.85, 0.95], [0, 1, 1, 0]);
-  const ctaScale = useTransform(scrollYProgress, [0.3, 0.5], [0.95, 1]);
-
-  // 2. Canvas Rendering (Desktop Only)
-  const render = useCallback(
-    (index) => {
-      if (!useSequence || images.length === 0 || !canvasRef.current) return;
-      const ctx = canvasRef.current.getContext("2d");
-      const img = images[Math.floor(index)];
-      if (img) {
-        const canvas = canvasRef.current;
-        const hRatio = canvas.width / img.width;
-        const vRatio = canvas.height / img.height;
-        const ratio = Math.max(hRatio, vRatio);
-        const centerShiftX = (canvas.width - img.width * ratio) / 2;
-        const centerShiftY = (canvas.height - img.height * ratio) / 2;
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, 0, 0, img.width, img.height, centerShiftX, centerShiftY, img.width * ratio, img.height * ratio);
-      }
-    },
-    [images, useSequence]
-  );
-
-  useEffect(() => {
-    if (!useSequence) return undefined;
-    const handleResize = () => {
-      if (canvasRef.current) {
-        canvasRef.current.width = window.innerWidth;
-        canvasRef.current.height = window.innerHeight;
-        render(Math.floor(smoothProgress.get() * (FRAME_COUNT - 1)));
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    return () => window.removeEventListener("resize", handleResize);
-  }, [render, smoothProgress, useSequence]);
-
-  useEffect(() => {
-    if (!useSequence) return undefined;
-    const unsubscribe = smoothProgress.on("change", (v) => {
-      render(Math.min(FRAME_COUNT - 1, Math.max(0, Math.floor(v * (FRAME_COUNT - 1)))));
-    });
-    return () => unsubscribe();
-  }, [smoothProgress, render, useSequence]);
-
-  const next = useCallback(() => setMsgIdx((i) => (i + 1) % MESSAGES.length), []);
-  useEffect(() => {
-    if (prefersReducedMotion) return undefined;
-    const id = setInterval(next, 6000);
-    return () => clearInterval(id);
-  }, [next, prefersReducedMotion]);
-
-  return (
-    <PageTransition>
-      <HomeBackground />
-
-      {/* DESKTOP HERO SECTION (LARGE SCREENS) */}
-      {!isMobile && (
-        <div ref={containerRef} className="relative h-[400vh] w-full bg-[#0e0e0e] z-10">
-          <div className="sticky top-0 h-screen w-full overflow-hidden">
-            {useSequence && (
-              <canvas ref={canvasRef} className="absolute inset-0 h-full w-full object-cover" />
-            )}
-            
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0e0e0e] to-transparent z-20" />
-          </div>
-        </div>
-      )}
-
-      {/* DESKTOP CTA */}
-      {!isMobile && (
-        <div className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-4 bg-[#0e0e0e] border-t border-white/5 z-20">
-          <motion.div className="max-w-4xl mx-auto space-y-8">
-            <h2 className="text-5xl md:text-7xl font-bold tracking-tight">
-              <Typewriter text="This is not a club. This is a platform." speed={70} />
-            </h2>
-            <div className="flex items-center justify-center gap-6 pt-6">
-              <Link to="/join" className="group relative flex h-14 w-44 items-center justify-center overflow-hidden rounded-full bg-white text-black font-bold">
-                Join Us
-              </Link>
-              <Link to="/projects" className="flex h-14 w-44 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white font-medium">
-                View Projects
-              </Link>
-            </div>
-          </motion.div>
-        </div>
-      )}
-
-      {/* MOBILE HERO SECTION (SMALL SCREENS) */}
-      {isMobile && (
-        <>
-          <div className="relative h-screen w-full overflow-hidden bg-[#0e0e0e] flex items-center justify-center">
-            <img 
-              src="/hero_background.png" 
-              alt="" 
-              className="absolute inset-0 h-full w-full object-cover opacity-80"
-            />
-            <div className="relative z-10 w-full px-6">
-              <SketchLine />
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0e0e0e] to-transparent z-20" />
-          </div>
-
-          <div className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-6 bg-[#0e0e0e] py-32 border-t border-white/5">
-            <div className="max-w-4xl mx-auto space-y-10">
-              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight leading-tight">
-                <Typewriter text="This is not a club. This is a platform." speed={70} />
-              </h2>
-              <p className="mx-auto max-sm text-base text-neutral-400">
-                SKETCH - where ideas become systems. We are building the next generation of makers.
-              </p>
-              <div className="flex flex-col items-center justify-center gap-5 w-full pt-4">
-                <Link to="/join" className="h-14 w-full max-w-[280px] flex items-center justify-center rounded-full bg-white text-black font-bold">
-                  Join Us
-                </Link>
-                <Link to="/projects" className="h-14 w-full max-w-[280px] flex items-center justify-center rounded-full border border-white/10 bg-white/5 text-white font-medium">
-                  View Projects
-                </Link>
-              </div>
-            </div>
-          </div>
-        </>
-      )}
-
-      {/* COMMON MESSAGE SECTION (SECTION 3) */}
-      <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-[#0e0e0e] px-4 py-16 md:py-0 border-t border-white/5 z-20">
-        <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="white" />
-        <TextFlippingBoard key={MESSAGES[msgIdx]} text={MESSAGES[msgIdx]} />
       </div>
     </PageTransition>
   );
@@ -3832,7 +3644,7 @@ export default function Join() {
 
   return (
     <PageTransition>
-      <div className="relative min-h-screen bg-neutral-950 flex items-center justify-center overflow-hidden py-24 md:py-32">
+      <div className="relative min-h-screen flex items-center justify-center overflow-hidden py-24 md:py-32">
         <BackgroundBeams />
 
         <div className="relative z-10 w-full max-w-xl mx-auto px-4 sm:px-6">
@@ -4013,7 +3825,7 @@ export default function Join() {
 </file>
 
 <file path="src/pages/Projects.jsx">
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import PageTransition from "../components/PageTransition";
 import LazyImage from "../components/LazyImage";
@@ -4024,6 +3836,7 @@ import {
   CardItem,
 } from "../components/ui/3d-card";
 import { usePrefersReducedMotion } from "../hooks/use-reduced-motion";
+import { useScrollHover } from "../hooks/use-scroll-hover";
 
 const projects = [
   {
@@ -4072,6 +3885,68 @@ const projects = [
 
 const filters = ["All", "R&D", "Design", "O&PR", "Marketing"];
 
+function ProjectCard({ project, prefersReducedMotion, cardMotion, cardTransition }) {
+  const cardRef = useRef(null);
+  const isAutoHovered = useScrollHover(cardRef);
+
+  return (
+    <motion.div
+      ref={cardRef}
+      key={project.title}
+      layout={!prefersReducedMotion}
+      {...cardMotion}
+      transition={cardTransition}
+    >
+      <CardContainer containerClassName="py-2" isHovered={isAutoHovered}>
+        <CardBody className="bg-[#111111] relative group/card border border-white/[0.1] w-full h-auto rounded-xl p-5 sm:p-6 hover:border-white/[0.2] transition-colors">
+          <CardItem
+            translateZ="50"
+            className="text-lg font-bold text-white"
+          >
+            {project.title}
+          </CardItem>
+
+          <CardItem
+            translateZ="60"
+            className="mt-2"
+          >
+            <span className="text-xs border border-[#e8e8e0]/30 text-[#e8e8e0] rounded-full px-3 py-1">
+              {project.dept}
+            </span>
+          </CardItem>
+
+          <CardItem translateZ="100" className="w-full mt-4">
+            <LazyImage
+              src={project.image}
+              alt={project.title}
+              className="h-44 w-full object-cover rounded-xl sm:h-48 group-hover/card:shadow-xl"
+            />
+          </CardItem>
+
+          <CardItem
+            translateZ="40"
+            className="mt-4"
+          >
+            <p className="text-neutral-400 text-sm leading-relaxed">
+              {project.desc}
+            </p>
+          </CardItem>
+
+          <div className="flex justify-end mt-6">
+            <CardItem
+              translateZ={20}
+              as="button"
+              className="px-4 py-2 rounded-xl text-xs font-normal text-white hover:text-[#e8e8e0] transition-colors"
+            >
+              View →
+            </CardItem>
+          </div>
+        </CardBody>
+      </CardContainer>
+    </motion.div>
+  );
+}
+
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("All");
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -4103,7 +3978,7 @@ export default function Projects() {
 
   return (
     <PageTransition>
-      <div className="min-h-screen bg-[#0e0e0e] pt-24 md:pt-32 pb-16 md:pb-20">
+      <div className="min-h-screen pt-24 md:pt-32 pb-16 md:pb-20">
         {/* SECTION 1 — Heading */}
         <motion.div
           {...sectionMotion}
@@ -4155,63 +4030,248 @@ export default function Projects() {
           >
             <AnimatePresence mode="popLayout">
               {filteredProjects.map((project) => (
-                <motion.div
+                <ProjectCard
                   key={project.title}
-                  layout={!prefersReducedMotion}
-                  {...cardMotion}
-                  transition={cardTransition}
-                >
-                  <CardContainer containerClassName="py-2">
-                    <CardBody className="bg-[#111111] relative group/card border border-white/[0.1] w-full h-auto rounded-xl p-5 sm:p-6 hover:border-white/[0.2] transition-colors">
-                      <CardItem
-                        translateZ="50"
-                        className="text-lg font-bold text-white"
-                      >
-                        {project.title}
-                      </CardItem>
-
-                      <CardItem
-                        translateZ="60"
-                        className="mt-2"
-                      >
-                        <span className="text-xs border border-[#e8e8e0]/30 text-[#e8e8e0] rounded-full px-3 py-1">
-                          {project.dept}
-                        </span>
-                      </CardItem>
-
-                      <CardItem translateZ="100" className="w-full mt-4">
-                        <LazyImage
-                          src={project.image}
-                          alt={project.title}
-                          className="h-44 w-full object-cover rounded-xl sm:h-48 group-hover/card:shadow-xl"
-                        />
-                      </CardItem>
-
-                      <CardItem
-                        translateZ="40"
-                        className="mt-4"
-                      >
-                        <p className="text-neutral-400 text-sm leading-relaxed">
-                          {project.desc}
-                        </p>
-                      </CardItem>
-
-                      <div className="flex justify-end mt-6">
-                        <CardItem
-                          translateZ={20}
-                          as="button"
-                          className="px-4 py-2 rounded-xl text-xs font-normal text-white hover:text-[#e8e8e0] transition-colors"
-                        >
-                          View →
-                        </CardItem>
-                      </div>
-                    </CardBody>
-                  </CardContainer>
-                </motion.div>
+                  project={project}
+                  prefersReducedMotion={prefersReducedMotion}
+                  cardMotion={cardMotion}
+                  cardTransition={cardTransition}
+                />
               ))}
             </AnimatePresence>
           </motion.div>
         </div>
+      </div>
+    </PageTransition>
+  );
+}
+</file>
+
+<file path="src/pages/Home.jsx">
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { Link } from "react-router-dom";
+import PageTransition from "../components/PageTransition";
+import SketchLine from "../components/SketchLine";
+import { Spotlight } from "../components/ui/spotlight";
+import { Typewriter } from "../components/ui/typewriter-text";
+import { TextFlippingBoard } from "../components/ui/text-flipping-board";
+import { useMediaQuery } from "../hooks/use-media-query";
+import { usePrefersReducedMotion } from "../hooks/use-reduced-motion";
+
+const MESSAGES = [
+  "SKETCH IS A PLATFORM",
+  "IDEAS BECOME SYSTEMS",
+  "BUILD. SHIP. REPEAT.",
+  "THIS IS NOT A CLUB.",
+  "WHERE IDEAS MEET EXECUTION",
+];
+
+const FRAME_COUNT = 240;
+const getFrameUrl = (index) =>
+  `/hero-sequence/ezgif-frame-${index.toString().padStart(3, "0")}.jpg`;
+const VECTOR_PATH_D =
+  "M777.388 16.0198C777.122 13.5487 774.904 11.7607 772.433 12.0261C769.962 12.2915 768.174 14.5099 768.439 16.981L772.913 16.5004L777.388 16.0198ZM295.008 241.5L295.499 245.974L295.008 241.5ZM134.588 283.389L132.909 279.214L134.588 283.389ZM12.5928 397L8.23643 395.872V395.872L12.5928 397ZM40.5084 477L38.0818 480.79V480.79L40.5084 477ZM207.008 477L207.706 481.446L207.008 477ZM816.009 432.14L812.794 435.289L816.009 432.14ZM608.117 1452.98L605.019 1456.24V1456.24L608.117 1452.98ZM592.509 1499.5L591.119 1495.22L592.509 1499.5ZM415.085 1493.99L417.095 1489.96L417.001 1489.92L416.905 1489.87L415.085 1493.99ZM170.008 1439L169.008 1434.61L170.008 1439ZM864.695 563.5L860.197 563.369L864.695 563.5ZM665.195 816L665.668 820.475L665.195 816ZM457.195 803L457.602 798.519V798.519L457.195 803ZM335.695 1039.5L335.204 1043.97L335.695 1039.5ZM435.695 1049L437.661 1044.95L435.695 1049ZM772.913 16.5004L768.439 16.981C775.405 81.8322 779.103 115.966 775.703 139.877C772.41 163.032 762.451 176.527 740.246 199.901L743.509 203L746.771 206.1C769.231 182.458 780.905 167.224 784.613 141.144C788.215 115.819 784.283 80.2109 777.388 16.0198L772.913 16.5004ZM743.509 203L740.246 199.901C718.905 222.365 683.692 235.161 647.921 242.258C612.32 249.32 577.002 250.582 556.266 250.582V255.082V259.582C577.287 259.582 613.258 258.31 649.673 251.086C685.918 243.895 723.448 230.651 746.771 206.1L743.509 203ZM556.266 255.082V250.582C546.108 250.582 530.463 249.143 511.028 247.089C491.702 245.046 468.762 242.41 444.341 240.089C395.533 235.451 340.261 232.01 294.518 237.027L295.008 241.5L295.499 245.974C340.256 241.065 394.734 244.415 443.49 249.049C467.851 251.364 490.647 253.984 510.082 256.039C529.406 258.082 545.545 259.582 556.266 259.582V255.082ZM295.008 241.5L294.518 237.027C228.098 244.311 182.936 259.098 132.909 279.214L134.588 283.389L136.266 287.565C185.813 267.641 230.15 253.14 295.499 245.974L295.008 241.5ZM134.588 283.389L132.909 279.214C113.368 287.072 84.4976 307.783 59.6304 330.341C47.1367 341.675 35.501 353.612 26.422 364.832C17.4466 375.925 10.5939 386.768 8.23643 395.872L12.5928 397L16.9491 398.128C18.7994 390.983 24.6026 381.389 33.4185 370.493C42.1307 359.726 53.4216 348.125 65.6773 337.007C90.3088 314.662 118.228 294.818 136.266 287.565L134.588 283.389ZM12.5928 397L8.23643 395.872C3.83052 412.887 2.9819 428.884 7.52811 443.368C12.1044 457.947 21.9875 470.485 38.0818 480.79L40.5084 477L42.9349 473.211C28.3113 463.847 19.9569 452.912 16.115 440.673C12.2431 428.337 12.7956 414.168 16.9491 398.128L12.5928 397ZM40.5084 477L38.0818 480.79C62.1231 496.184 97.6925 497.155 129.99 494.109C162.342 491.057 193.375 483.694 207.706 481.446L207.008 477L206.311 472.555C190.84 474.982 161.269 482.118 129.144 485.148C96.9647 488.183 64.1852 486.817 42.9349 473.211L40.5084 477ZM207.008 477L207.706 481.446C233.55 477.392 248.613 472.594 267.267 466.809C285.809 461.06 308.109 454.266 348.724 446.054L347.832 441.643L346.94 437.232C305.927 445.525 283.315 452.41 264.602 458.213C246.001 463.981 231.467 468.609 206.311 472.555L207.008 477ZM347.832 441.643L348.724 446.054C389.684 437.771 435.881 423.667 481.733 411.801C527.828 399.871 573.818 390.124 615.305 390.124V385.624V381.124C572.597 381.124 525.664 391.134 479.478 403.088C433.05 415.104 387.608 429.009 346.94 437.232L347.832 441.643ZM615.305 385.624V390.124C657.194 390.124 698.957 393.487 734.173 400.906C769.593 408.369 797.598 419.779 812.794 435.289L816.009 432.14L819.223 428.99C802.076 411.49 771.826 399.642 736.029 392.1C700.028 384.515 657.61 381.124 615.305 381.124V385.624ZM540.351 1351.44L535.876 1351.92C540.319 1393.93 552.575 1415.67 566.898 1429.29C573.96 1436.01 581.361 1440.58 587.996 1444.56C594.769 1448.62 600.455 1451.91 605.019 1456.24L608.117 1452.98L611.216 1449.71C605.768 1444.54 599.069 1440.7 592.623 1436.84C586.038 1432.89 579.385 1428.74 573.099 1422.77C560.727 1411 549.11 1391.48 544.826 1350.97L540.351 1351.44ZM608.117 1452.98L605.019 1456.24C611.848 1462.72 613.5 1470.58 611.228 1477.56C608.916 1484.67 602.282 1491.6 591.119 1495.22L592.509 1499.5L593.899 1503.78C607.235 1499.45 616.414 1490.71 619.786 1480.35C623.198 1469.86 620.404 1458.43 611.216 1449.71L608.117 1452.98ZM592.509 1499.5L591.119 1495.22C570.217 1502.01 536.682 1505.75 503.102 1505.19C469.429 1504.62 436.695 1499.75 417.095 1489.96L415.085 1493.99L413.075 1498.01C434.546 1508.74 468.962 1513.62 502.952 1514.19C537.035 1514.76 571.676 1511 593.899 1503.78L592.509 1499.5ZM415.085 1493.99L416.905 1489.87C283.22 1430.76 218.743 1423.27 169.008 1434.61L170.008 1439L171.009 1443.39C217.79 1432.72 279.991 1439.18 413.265 1498.1L415.085 1493.99ZM170.008 1439L169.008 1434.61C148.111 1439.38 129.775 1456.32 116.809 1475.39C103.837 1494.48 95.5084 1516.78 95.5084 1533.5H100.008H104.508C104.508 1519.21 111.876 1498.66 124.253 1480.45C136.636 1462.23 153.299 1447.43 171.009 1443.39L170.008 1439ZM816.009 432.14L812.794 435.289C824.468 447.204 836.628 457.839 845.861 476.167C855.052 494.413 861.442 520.614 860.197 563.369L864.695 563.5L869.193 563.631C870.467 519.887 863.958 492.088 853.898 472.118C843.88 452.231 830.437 440.436 819.223 428.99L816.009 432.14ZM864.695 563.5L860.197 563.369C858.701 614.74 854.84 644.802 847.992 668.83C841.138 692.882 831.26 711.06 817.177 738.973L821.195 741L825.213 743.027C839.13 715.44 849.502 696.369 856.648 671.296C863.8 646.198 867.689 615.26 869.193 563.631L864.695 563.5ZM821.195 741L817.177 738.973C790.396 792.058 735.953 804.001 664.722 811.525L665.195 816L665.668 820.475C736.437 813 795.994 800.943 825.213 743.027L821.195 741ZM665.195 816L664.722 811.525C637.73 814.377 605.341 812.913 569.876 809.817C552.168 808.271 533.762 806.326 514.935 804.325C496.122 802.326 476.893 800.273 457.602 798.519L457.195 803L456.788 807.482C475.997 809.228 495.156 811.274 513.984 813.275C532.799 815.274 551.288 817.229 569.093 818.783C604.654 821.887 637.765 823.423 665.668 820.475L665.195 816ZM457.195 803L457.602 798.519C404.745 793.714 358.378 800.11 294.607 833.514L296.695 837.5L298.783 841.487C361.012 808.89 405.645 802.833 456.788 807.482L457.195 803ZM296.695 837.5L294.607 833.514C231.241 866.706 202.536 896.66 196.735 939.902L201.195 940.5L205.655 941.099C210.854 902.34 236.149 874.295 298.783 841.487L296.695 837.5ZM201.195 940.5L196.735 939.902C193.842 961.467 198.889 980.079 206.759 994.333C214.568 1008.48 225.302 1018.59 234.182 1023.03L236.195 1019L238.207 1014.98C231.264 1011.5 221.748 1002.86 214.638 989.983C207.589 977.215 203.048 960.533 205.655 941.099L201.195 940.5ZM236.195 1019L234.182 1023.03C265.088 1038.48 289.118 1038.92 335.204 1043.97L335.695 1039.5L336.186 1035.03C289.272 1029.88 267.302 1029.52 238.207 1014.98L236.195 1019ZM335.695 1039.5L335.204 1043.97C355.903 1046.25 376.81 1046.5 394.317 1047.25C403.136 1047.62 411.076 1048.11 417.855 1049.02C424.691 1049.94 430.002 1051.24 433.729 1053.05L435.695 1049L437.661 1044.95C432.638 1042.51 426.198 1041.06 419.051 1040.1C411.846 1039.14 403.567 1038.63 394.698 1038.25C376.829 1037.5 356.486 1037.26 336.186 1035.03L335.695 1039.5ZM435.695 1049L433.729 1053.05C446.768 1059.38 452.019 1068.2 452.926 1070.92L457.195 1069.5L461.464 1068.08C459.705 1062.8 452.622 1052.22 437.661 1044.95L435.695 1049Z";
+
+export default function Home() {
+  const containerRef = useRef(null);
+  const canvasRef = useRef(null);
+  const [images, setImages] = useState([]);
+  const [msgIdx, setMsgIdx] = useState(0);
+  const isMobile = useMediaQuery("(max-width: 767px)");
+  const prefersReducedMotion = usePrefersReducedMotion();
+  const useSequence = !isMobile && !prefersReducedMotion;
+
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end end"],
+  });
+
+  const smoothProgress = useSpring(scrollYProgress, {
+    stiffness: 400,
+    damping: 40,
+    restDelta: 0.0001,
+  });
+  const sequenceProgress = useTransform(smoothProgress, [0, 0.78], [0, 1]);
+
+  // Mapped to start fading in earlier on desktop
+  const ctaOpacity = useTransform(scrollYProgress, [0.3, 0.5, 0.85, 0.95], [0, 1, 1, 0]);
+  const ctaScale = useTransform(scrollYProgress, [0.3, 0.5], [0.95, 1]);
+  const vectorPathLength = useTransform(scrollYProgress, [0.8, 1], [0, 1]);
+  const vectorOpacity = useTransform(scrollYProgress, [0.78, 0.82], [0, 0.7]);
+
+  // 2. Canvas Rendering (Desktop Only)
+  const render = useCallback(
+    (index) => {
+      if (!useSequence || images.length === 0 || !canvasRef.current) return;
+      const ctx = canvasRef.current.getContext("2d");
+      const frameIndex = Math.floor(index);
+      let img = images[frameIndex];
+      if (!img?.complete || img.naturalWidth === 0) {
+        img = images
+          .slice(0, frameIndex + 1)
+          .reverse()
+          .find((frame) => frame.complete && frame.naturalWidth > 0);
+      }
+      if (img) {
+        const canvas = canvasRef.current;
+        const hRatio = canvas.width / img.width;
+        const vRatio = canvas.height / img.height;
+        const ratio = Math.max(hRatio, vRatio);
+        const centerShiftX = (canvas.width - img.width * ratio) / 2;
+        const centerShiftY = (canvas.height - img.height * ratio) / 2;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, img.width, img.height, centerShiftX, centerShiftY, img.width * ratio, img.height * ratio);
+      }
+    },
+    [images, useSequence]
+  );
+
+  // 1. Preload Images (Desktop Only)
+  useEffect(() => {
+    if (!useSequence) return undefined;
+    let loadedCount = 0;
+    let hasShownFirstFrame = false;
+    const loadedImages = [];
+
+    for (let i = 1; i <= FRAME_COUNT; i += 1) {
+      const img = new Image();
+      img.src = getFrameUrl(i);
+      img.onload = () => {
+        loadedCount += 1;
+        if (!hasShownFirstFrame || loadedCount === FRAME_COUNT) {
+          hasShownFirstFrame = true;
+          setImages([...loadedImages]);
+        }
+      };
+      loadedImages.push(img);
+    }
+
+    setImages(loadedImages);
+    return () => setImages([]);
+  }, [useSequence]);
+
+  useEffect(() => {
+    if (!useSequence) return undefined;
+    const handleResize = () => {
+      if (canvasRef.current) {
+        canvasRef.current.width = window.innerWidth;
+        canvasRef.current.height = window.innerHeight;
+        render(Math.floor(sequenceProgress.get() * (FRAME_COUNT - 1)));
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, [render, sequenceProgress, useSequence]);
+
+  useEffect(() => {
+    if (!useSequence) return undefined;
+    const unsubscribe = sequenceProgress.on("change", (v) => {
+      render(Math.min(FRAME_COUNT - 1, Math.max(0, Math.floor(v * (FRAME_COUNT - 1)))));
+    });
+    return () => unsubscribe();
+  }, [sequenceProgress, render, useSequence]);
+
+  const next = useCallback(() => setMsgIdx((i) => (i + 1) % MESSAGES.length), []);
+  useEffect(() => {
+    if (prefersReducedMotion) return undefined;
+    const id = setInterval(next, 6000);
+    return () => clearInterval(id);
+  }, [next, prefersReducedMotion]);
+
+  return (
+    <PageTransition>
+      {/* DESKTOP HERO SECTION (LARGE SCREENS) */}
+      {!isMobile && (
+        <div ref={containerRef} className="relative h-[400vh] w-full z-10">
+          <motion.svg
+            className="pointer-events-none absolute right-[2vw] top-[300vh] z-30 h-[95vh] w-auto"
+            viewBox="0 0 882 1538"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style={{ opacity: vectorOpacity, filter: "drop-shadow(8px -8px 4px rgba(0,0,0,0.25))" }}
+          >
+            <motion.path
+              d={VECTOR_PATH_D}
+              fill="#0e0e0e"
+              stroke="#211E1E"
+              strokeWidth="2"
+              strokeLinecap="round"
+              pathLength={vectorPathLength}
+            />
+          </motion.svg>
+
+          <div className="sticky top-0 h-screen w-full overflow-hidden">
+            {useSequence && (
+              <canvas ref={canvasRef} className="absolute inset-0 h-full w-full object-cover" />
+            )}
+            
+            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0e0e0e] to-transparent z-20" />
+          </div>
+        </div>
+      )}
+
+      {/* DESKTOP CTA */}
+      {!isMobile && (
+        <div className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-4 border-t border-white/5 z-20">
+          <motion.div className="max-w-4xl mx-auto space-y-8">
+            <h2 className="text-5xl md:text-7xl font-bold tracking-tight">
+              <Typewriter text="This is not a club. This is a platform." speed={70} />
+            </h2>
+            <div className="flex items-center justify-center gap-6 pt-6">
+              <Link to="/join" className="group relative flex h-14 w-44 items-center justify-center overflow-hidden rounded-full bg-white text-black font-bold">
+                Join Us
+              </Link>
+              <Link to="/projects" className="flex h-14 w-44 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white font-medium">
+                View Projects
+              </Link>
+            </div>
+          </motion.div>
+        </div>
+      )}
+
+      {/* MOBILE HERO SECTION (SMALL SCREENS) */}
+      {isMobile && (
+        <>
+          <div className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+            <div className="absolute inset-0 bg-gradient-to-b from-purple-900/35 via-[#0e0e0e] to-[#0e0e0e]" />
+            <img 
+              src="/hero_background.png" 
+              alt="" 
+              className="absolute inset-0 h-full w-full object-cover opacity-80"
+            />
+            <div className="relative z-10 w-full px-6">
+              <SketchLine />
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0e0e0e] to-transparent z-20" />
+          </div>
+
+          <div className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-6 py-32 border-t border-white/5">
+            <div className="max-w-4xl mx-auto space-y-10">
+              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight leading-tight">
+                <Typewriter text="This is not a club. This is a platform." speed={70} />
+              </h2>
+              <p className="mx-auto max-sm text-base text-neutral-400">
+                SKETCH - where ideas become systems. We are building the next generation of makers.
+              </p>
+              <div className="flex flex-col items-center justify-center gap-5 w-full pt-4">
+                <Link to="/join" className="h-14 w-full max-w-[280px] flex items-center justify-center rounded-full bg-white text-black font-bold">
+                  Join Us
+                </Link>
+                <Link to="/projects" className="h-14 w-full max-w-[280px] flex items-center justify-center rounded-full border border-white/10 bg-white/5 text-white font-medium">
+                  View Projects
+                </Link>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* COMMON MESSAGE SECTION (SECTION 3) */}
+      <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden px-4 py-16 md:py-0 border-t border-white/5 z-20">
+        <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="white" />
+        <TextFlippingBoard key={MESSAGES[msgIdx]} text={MESSAGES[msgIdx]} />
       </div>
     </PageTransition>
   );

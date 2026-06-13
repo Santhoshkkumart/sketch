@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import HomeBackground from "./components/HomeBackground";
 import { LoaderOne } from "./components/ui/loader";
 
 import Home from "./pages/Home";
@@ -11,6 +12,32 @@ import About from "./pages/About";
 import Departments from "./pages/Departments";
 import Projects from "./pages/Projects";
 import Join from "./pages/Join";
+
+const HERO_FRAME_COUNT = 240;
+const getHeroFrameUrl = (index) =>
+  `/hero-sequence/ezgif-frame-${index.toString().padStart(3, "0")}.jpg`;
+
+function preloadHeroSequence() {
+  if (
+    typeof window === "undefined" ||
+    window.matchMedia("(max-width: 767px)").matches ||
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  ) {
+    return Promise.resolve();
+  }
+
+  let settled = 0;
+  return new Promise((resolve) => {
+    for (let i = 1; i <= HERO_FRAME_COUNT; i += 1) {
+      const img = new Image();
+      img.onload = img.onerror = () => {
+        settled += 1;
+        if (settled === HERO_FRAME_COUNT) resolve();
+      };
+      img.src = getHeroFrameUrl(i);
+    }
+  });
+}
 
 // Scrolls to top on every route change
 function ScrollToTop() {
@@ -27,8 +54,16 @@ function App() {
 
   // Initial loader
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1500);
-    return () => clearTimeout(timer);
+    let cancelled = false;
+    const minimumLoader = new Promise((resolve) => setTimeout(resolve, 1500));
+
+    Promise.all([minimumLoader, preloadHeroSequence()]).then(() => {
+      if (!cancelled) setLoading(false);
+    });
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   if (loading) {
@@ -52,9 +87,9 @@ function App() {
   return (
     <>
       {/* Background layer — MUST be outside the main content wrapper */}
-      <div className="fixed inset-0 -z-10 bg-[#0e0e0e]" />
+      <HomeBackground />
 
-      <div className="dark min-h-screen relative">
+      <div className="dark min-h-screen relative z-10">
         <ScrollToTop />
         <Navbar />
 

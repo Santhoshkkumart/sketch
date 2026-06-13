@@ -4,7 +4,7 @@ export default function HomeBackground() {
   const isMobile = useMediaQuery("(max-width: 767px)");
 
   return (
-    <div className="fixed inset-0 -z-10 bg-[#0e0e0e]">
+    <div className="pointer-events-none fixed inset-0 z-0 bg-[#0e0e0e]">
       {isMobile ? (
         <div className="absolute top-0 left-0 right-0 h-[70vh] bg-gradient-to-b from-purple-900/15 to-transparent" />
       ) : (
